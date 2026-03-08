@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0FDF4"/>
+      <stop offset="1" stop-color="#DCFCE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg3)" rx="12"/>
+  <!-- CT/MRI scan frame -->
+  <g transform="translate(50, 40)">
+    <rect width="140" height="140" rx="12" fill="white" stroke="#16A34A" stroke-width="2"/>
+    <circle cx="70" cy="70" r="55" fill="#F0FDF4" stroke="#16A34A" stroke-width="1" stroke-dasharray="4"/>
+    <!-- Brain scan representation -->
+    <ellipse cx="70" cy="65" rx="35" ry="40" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <path d="M70 25 Q55 40 55 65 Q55 90 70 105" stroke="#16A34A" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M70 25 Q85 40 85 65 Q85 90 70 105" stroke="#16A34A" stroke-width="1" fill="none" opacity="0.5"/>
+    <line x1="45" y1="65" x2="95" y2="65" stroke="#16A34A" stroke-width="1" opacity="0.3"/>
+    <!-- Highlight region -->
+    <circle cx="80" cy="55" r="10" fill="#EF4444" opacity="0.2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="70" y="130" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#16A34A">Medical Image</text>
+  </g>
+  <!-- AI Analysis -->
+  <g transform="translate(220, 60)">
+    <rect width="150" height="100" rx="10" fill="white" stroke="#9B0000" stroke-width="2"/>
+    <text x="75" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#9B0000" font-weight="600">AI Analysis</text>
+    <!-- Probability bars -->
+    <rect x="15" y="38" width="90" height="10" rx="5" fill="#F0FDF4"/>
+    <rect x="15" y="38" width="75" height="10" rx="5" fill="#22C55E" opacity="0.7"/>
+    <text x="110" y="47" font-family="Inter,sans-serif" font-size="9" fill="#16A34A">95%</text>
+    <rect x="15" y="55" width="90" height="10" rx="5" fill="#FEF2F2"/>
+    <rect x="15" y="55" width="20" height="10" rx="5" fill="#EF4444" opacity="0.5"/>
+    <text x="110" y="64" font-family="Inter,sans-serif" font-size="9" fill="#EF4444">3%</text>
+    <rect x="15" y="72" width="90" height="10" rx="5" fill="#F5F3FF"/>
+    <rect x="15" y="72" width="10" height="10" rx="5" fill="#7C3AED" opacity="0.5"/>
+    <text x="110" y="81" font-family="Inter,sans-serif" font-size="9" fill="#7C3AED">2%</text>
+  </g>
+  <!-- Arrow connecting -->
+  <path d="M190 110 L220 110" stroke="#9B0000" stroke-width="2" opacity="0.5"/>
+  <polygon points="218,106 226,110 218,114" fill="#9B0000" opacity="0.5"/>
+  <!-- Hospital collaboration -->
+  <g transform="translate(100, 200)">
+    <!-- Cross icon -->
+    <rect x="85" y="10" width="30" height="10" rx="5" fill="#9B0000" opacity="0.2"/>
+    <rect x="95" y="0" width="10" height="30" rx="5" fill="#9B0000" opacity="0.2"/>
+    <text x="100" y="55" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#6B7280">Hospital Partnership</text>
+  </g>
+  <!-- Stethoscope icon simplified -->
+  <g transform="translate(280, 180)">
+    <circle cx="40" cy="30" r="25" fill="white" stroke="#16A34A" stroke-width="1.5" opacity="0.8"/>
+    <path d="M30 20 Q30 10 40 10 Q50 10 50 20" stroke="#16A34A" stroke-width="2" fill="none"/>
+    <circle cx="40" cy="35" r="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="40" y="70" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#16A34A">Diagnosis</text>
+  </g>
+  <!-- Label -->
+  <text x="200" y="280" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#16A34A" font-weight="600">Medical Image Processing</text>
+</svg>

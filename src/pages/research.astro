@@ -4,89 +4,210 @@ import Layout from '../layouts/Layout.astro';
 const researchAreas = [
   {
     title: "视频内容分析与理解",
+    subtitle: "Video Content Analysis & Understanding",
     description: "面向单一视角非特定目标检测与跟踪、多视角协同的多目标关联感知和复杂场景多目标行为分析理解开展研究。",
     achievements: "已发表高水平会议/期刊论文近20篇，申请专利近10项",
-    image: "/images/research_video.jpg",
-    tags: ["目标检测", "目标跟踪", "行为分析"]
+    image: "/images/research/video-analysis.svg",
+    tags: ["目标检测", "目标跟踪", "行为分析"],
   },
   {
     title: "多模态理解与应用",
+    subtitle: "Multimodal Understanding & Applications",
     description: "任务常常可以由多种模态表征，而利用多种模态之间信息的互补性和冗余性可以提升任务性能。本方向开展高效多模态理解和手语理解等研究。",
     achievements: "已发表高水平会议/期刊论文近10篇，承担相关项目一项",
-    image: "/images/research_multimodal.jpg",
-    tags: ["多模态学习", "手语理解", "跨模态融合"]
+    image: "/images/research/multimodal.svg",
+    tags: ["多模态学习", "手语理解", "跨模态融合"],
   },
   {
     title: "医学影像处理与理解",
+    subtitle: "Medical Image Processing & Understanding",
     description: "医学影像处理与理解旨在将人工智能技术应用于医学分析中，以更好地帮助患者和医生进行病情诊断。",
     achievements: "在多个高水平会议/期刊上发表论文，与多家医院开展合作",
-    image: "/images/research_medical.jpg",
-    tags: ["医学影像", "AI诊断", "图像分割"]
+    image: "/images/research/medical.svg",
+    tags: ["医学影像", "AI诊断", "图像分割"],
   },
   {
     title: "精细化图像理解与识别",
+    subtitle: "Fine-Grained Image Understanding & Recognition",
     description: "精细化图像识别针对空间、类别和语义精细化三大目标，让计算机看清不同尺度的目标、看全已知和未知目标种类，以及看懂复杂目标语义关系。",
     achievements: "已发表高水平会议/期刊论文近10篇",
-    image: "/images/20240114111157.jpg",
-    tags: ["细粒度识别", "目标检测", "语义理解"]
+    image: "/images/research/fine-grained.svg",
+    tags: ["细粒度识别", "目标检测", "语义理解"],
   },
   {
     title: "数字文化遗产安全保护与利用",
+    subtitle: "Digital Cultural Heritage Preservation",
     description: "本方向设计了满足协同标注的众智标注平台1套，设计并开发了数字文化遗产智能计算引擎。",
     achievements: "发表论文6篇，申请发明专利5项，获批软件著作权5项，成果已在敦煌研究院和湖南博物院部署使用",
-    image: "/images/research_cultural.jpg",
-    tags: ["文物保护", "智能计算", "数字博物馆"]
+    image: "/images/research/cultural-heritage.svg",
+    tags: ["文物保护", "智能计算", "数字博物馆"],
   },
   {
     title: "微变视觉感知",
+    subtitle: "Micro-Change Visual Perception",
     description: "本方向面向如何在开放动态环境中持续、精准地感知长周期、小目标、细微变化。",
     achievements: "发表论文7篇，获批发明专利13项，软著4项，承担科技部重点研发项目等重点项目五项",
-    image: "/images/research_microchange.jpg",
-    tags: ["微变检测", "精密测量", "变化检测"]
+    image: "/images/research/micro-change.svg",
+    tags: ["微变检测", "精密测量", "变化检测"],
   },
   {
     title: "机器学习理论",
+    subtitle: "Machine Learning Theory",
     description: "机器学习算法设计与理论分析，面向各种大规模机器学习问题的快速求解与训练问题，设计快速高效且具有更好泛化能力的算法。",
     achievements: "已发表高水平会议/期刊论文近20篇，承担国家自然科学基金面上项目2项",
-    image: "/images/research_ml.jpg",
-    tags: ["优化算法", "泛化理论", "大规模学习"]
-  }
+    image: "/images/research/ml-theory.svg",
+    tags: ["优化算法", "泛化理论", "大规模学习"],
+  },
 ];
 ---
 
-<Layout title="研究方向" description="视觉智能实验室研究方向">
-  <!-- Header -->
-  <div class="bg-gradient-to-br from-tju-red to-red-900 text-white py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="text-4xl lg:text-5xl font-bold mb-4">研究方向</h1>
-      <p class="text-xl text-red-100">Research Areas</p>
+<Layout title="研究方向" description="天津大学视觉智能实验室研究方向">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
+    <!-- Decorative grid pattern -->
+    <div class="absolute inset-0 opacity-[0.04]" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cpath d=&quot;M0 0h60v60H0z&quot; fill=&quot;none&quot; stroke=&quot;white&quot; stroke-width=&quot;0.5&quot;/%3E%3C/svg%3E');"></div>
+    <!-- Accent line -->
+    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-tju-red via-tju-red-light to-tju-gold"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+      <div class="max-w-3xl">
+        <p class="text-tju-gold font-medium tracking-widest uppercase text-sm mb-4 animate-fade-in">Research Areas</p>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 animate-fade-in-up">
+          研究方向
+        </h1>
+        <p class="text-lg sm:text-xl text-gray-300 leading-relaxed animate-fade-in-up" style="animation-delay: 0.15s;">
+          实验室围绕计算机视觉与机器学习核心问题，在七个方向上持续深耕，追求理论突破与落地应用的双重目标。
+        </p>
+      </div>
+      <!-- Stats ribbon -->
+      <div class="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-6 animate-fade-in-up" style="animation-delay: 0.3s;">
+        <div class="text-center sm:text-left">
+          <p class="text-3xl font-bold text-white">7</p>
+          <p class="text-sm text-gray-400 mt-1">研究方向</p>
+        </div>
+        <div class="text-center sm:text-left">
+          <p class="text-3xl font-bold text-white">80+</p>
+          <p class="text-sm text-gray-400 mt-1">发表论文</p>
+        </div>
+        <div class="text-center sm:text-left">
+          <p class="text-3xl font-bold text-white">30+</p>
+          <p class="text-sm text-gray-400 mt-1">专利授权</p>
+        </div>
+        <div class="text-center sm:text-left">
+          <p class="text-3xl font-bold text-white">10+</p>
+          <p class="text-sm text-gray-400 mt-1">承担项目</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Quick Navigation -->
+  <nav class="sticky top-0 z-40 bg-white/80 backdrop-blur-lg border-b border-gray-200/60 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-1 overflow-x-auto py-3 scrollbar-hide">
+        {researchAreas.map((area, index) => (
+          <a
+            href={`#area-${index}`}
+            class="shrink-0 px-3 py-1.5 text-sm text-gray-500 hover:text-tju-red hover:bg-red-50 rounded-full transition-colors whitespace-nowrap"
+          >
+            {area.title}
+          </a>
+        ))}
+      </div>
+    </div>
+  </nav>
 
   <!-- Research Areas -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <div class="space-y-16">
-      {researchAreas.map((area, index) => (
-        <div class={`grid lg:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
-          <div class={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-            <div class="rounded-xl overflow-hidden shadow-lg">
-              <img src={area.image} alt={area.title} class="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
+  <section class="bg-gray-50/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+      <div class="space-y-28 lg:space-y-36">
+        {researchAreas.map((area, index) => (
+          <article id={`area-${index}`} class="scroll-mt-20">
+            <div class={`grid lg:grid-cols-2 gap-12 lg:gap-16 items-center ${index % 2 === 1 ? '' : ''}`}>
+              <!-- Image Side -->
+              <div class={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+                <div class="relative group">
+                  <!-- Background decoration -->
+                  <div class={`absolute -inset-4 rounded-2xl bg-gradient-to-br ${index % 2 === 0 ? 'from-tju-red/5 to-transparent' : 'from-transparent to-tju-red/5'} group-hover:from-tju-red/10 transition-colors duration-500`}></div>
+                  <!-- Number badge -->
+                  <div class="absolute -top-3 -left-3 z-10 w-10 h-10 bg-tju-red text-white rounded-full flex items-center justify-center font-bold text-sm shadow-lg shadow-tju-red/20">
+                    {String(index + 1).padStart(2, '0')}
+                  </div>
+                  <!-- SVG container -->
+                  <div class="relative bg-white rounded-2xl shadow-lg shadow-gray-200/50 border border-gray-100 overflow-hidden aspect-[4/3] flex items-center justify-center p-8 lg:p-12 group-hover:shadow-xl group-hover:shadow-gray-200/80 transition-shadow duration-500">
+                    <img
+                      src={area.image}
+                      alt={area.title}
+                      class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text Side -->
+              <div class={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                <!-- Tags -->
+                <div class="flex flex-wrap gap-2 mb-5">
+                  {area.tags.map((tag: string) => (
+                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-red-50 text-tju-red border border-red-100/80">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <!-- Title -->
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-1.5 leading-tight">
+                  {area.title}
+                </h2>
+                <p class="text-sm text-gray-400 font-medium mb-6">{area.subtitle}</p>
+
+                <!-- Description -->
+                <p class="text-gray-600 leading-relaxed text-base mb-8">
+                  {area.description}
+                </p>
+
+                <!-- Achievements callout -->
+                <div class="relative bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+                  <div class="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-tju-red to-tju-red-light rounded-l-xl"></div>
+                  <div class="pl-4">
+                    <p class="text-xs font-semibold uppercase tracking-wider text-tju-red mb-2">Research Outcomes</p>
+                    <p class="text-sm text-gray-700 leading-relaxed">{area.achievements}</p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
-            <div class="flex flex-wrap gap-2 mb-4">
-              {area.tags.map(tag => (
-                <span class="px-3 py-1 bg-red-100 text-tju-red text-sm rounded-full">{tag}</span>
-              ))}
-            </div>
-            <h2 class="text-2xl font-bold text-gray-900 mb-4">{area.title}</h2>
-            <p class="text-gray-600 leading-relaxed mb-4">{area.description}</p>
-            <div class="bg-gray-50 rounded-lg p-4 border-l-4 border-tju-red">
-              <p class="text-sm text-gray-700"><span class="font-semibold">成果：</span>{area.achievements}</p>
-            </div>
-          </div>
-        </div>
-      ))}
+          </article>
+        ))}
+      </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="bg-white border-t border-gray-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">加入我们的研究</h2>
+      <p class="text-gray-500 mb-8 max-w-2xl mx-auto">
+        实验室长期招收具有扎实数学基础与编程能力的硕士、博士研究生，欢迎有志于计算机视觉与机器学习研究的同学加入。
+      </p>
+      <a
+        href="/join"
+        class="inline-flex items-center gap-2 px-8 py-3.5 bg-tju-red text-white font-medium rounded-full hover:bg-tju-red-light transition-colors shadow-lg shadow-tju-red/20 hover:shadow-tju-red/30"
+      >
+        了解招生信息
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+  </section>
 </Layout>
+
+<style>
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+</style>

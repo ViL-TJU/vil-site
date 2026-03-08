@@ -1,19 +1,255 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import pubData from '../data/publications.json';
+
+// Compute stats
+const years = Object.keys(pubData).sort((a, b) => {
+  // "2017 and Earlier" should sort last
+  const na = parseInt(a) || 0;
+  const nb = parseInt(b) || 0;
+  return nb - na;
+});
+
+const totalPapers = years.reduce((sum, y) => sum + pubData[y].length, 0);
+const codeCount = years.reduce((sum, y) => sum + pubData[y].filter((p: any) => p.code).length, 0);
+
+// Count venue occurrences
+const venueKeywords = ['CVPR', 'ICCV', 'ECCV', 'AAAI', 'NeurIPS', 'ICML', 'ICLR', 'TPAMI', 'IJCV', 'TIP', 'TIFS', 'TNNLS', 'TMM', 'TCSVT', 'ACM MM', 'MICCAI'];
+const venueCounts: Record<string, number> = {};
+for (const year of years) {
+  for (const paper of pubData[year]) {
+    for (const key of venueKeywords) {
+      if (paper.venue.includes(key)) {
+        venueCounts[key] = (venueCounts[key] || 0) + 1;
+      }
+    }
+  }
+}
+
+// Top venues sorted by count
+const topVenues = Object.entries(venueCounts)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8);
+
+// Venue badge color mapping
+const venueColors: Record<string, string> = {
+  'CVPR': 'bg-blue-100 text-blue-800',
+  'ICCV': 'bg-indigo-100 text-indigo-800',
+  'ECCV': 'bg-violet-100 text-violet-800',
+  'NeurIPS': 'bg-purple-100 text-purple-800',
+  'ICML': 'bg-fuchsia-100 text-fuchsia-800',
+  'ICLR': 'bg-pink-100 text-pink-800',
+  'AAAI': 'bg-sky-100 text-sky-800',
+  'TPAMI': 'bg-emerald-100 text-emerald-800',
+  'IJCV': 'bg-teal-100 text-teal-800',
+  'TIP': 'bg-green-100 text-green-800',
+  'TIFS': 'bg-cyan-100 text-cyan-800',
+  'TNNLS': 'bg-lime-100 text-lime-800',
+  'TMM': 'bg-amber-100 text-amber-800',
+  'ACM MM': 'bg-orange-100 text-orange-800',
+  'MICCAI': 'bg-rose-100 text-rose-800',
+};
+
+function getVenueShort(venue: string): string | null {
+  for (const key of venueKeywords) {
+    if (venue.includes(key)) return key;
+  }
+  return null;
+}
+
+function getVenueColor(venue: string): string {
+  const short = getVenueShort(venue);
+  return short ? (venueColors[short] || 'bg-gray-100 text-gray-700') : 'bg-gray-100 text-gray-700';
+}
 ---
 
-<Layout title="学术成果" description="视觉智能实验室学术成果">
+<Layout title="学术成果" description="视觉智能实验室学术成果 - 已发表高水平论文303篇">
+  <!-- Hero Header -->
   <div class="bg-gradient-to-br from-tju-red to-red-900 text-white py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h1 class="text-4xl lg:text-5xl font-bold mb-4">学术成果</h1>
-      <p class="text-xl text-red-100">Publications</p>
+      <p class="text-xl text-red-100 mb-8">Publications</p>
+
+      <!-- Stats Row -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold">{totalPapers}</div>
+          <div class="text-sm text-red-200 mt-1">论文总数</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold">{years.length}</div>
+          <div class="text-sm text-red-200 mt-1">年份跨度</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold">{codeCount}</div>
+          <div class="text-sm text-red-200 mt-1">开源代码</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold">{Object.keys(venueCounts).length}</div>
+          <div class="text-sm text-red-200 mt-1">顶级期刊/会议</div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <div class="text-center">
-      <p class="text-gray-600">实验室已发表论文100余篇，部分代表性成果正在整理中...</p>
-      <p class="text-gray-500 mt-4">如需获取完整论文列表，请访问 <a href="http://www.tjuvil.net/qeihuan.aspx?ClassID=54" class="text-tju-red hover:underline" target="_blank">原网站</a></p>
+  <!-- Top Venues Bar -->
+  <div class="bg-gray-50 border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">代表性发表期刊/会议</h2>
+      <div class="flex flex-wrap gap-3">
+        {topVenues.map(([venue, count]) => (
+          <span class={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium ${venueColors[venue] || 'bg-gray-100 text-gray-700'}`}>
+            {venue}
+            <span class="text-xs opacity-70">({count})</span>
+          </span>
+        ))}
+      </div>
     </div>
   </div>
+
+  <!-- Main Content -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="lg:flex lg:gap-10">
+
+      <!-- Sticky Year Navigation (Sidebar) -->
+      <aside class="hidden lg:block lg:w-48 shrink-0">
+        <nav class="sticky top-24">
+          <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">年份导航</h3>
+          <ul class="space-y-1">
+            {years.map((year) => (
+              <li>
+                <a
+                  href={`#year-${year.replace(/\s+/g, '-')}`}
+                  class="year-nav-link flex items-center justify-between px-3 py-2 rounded-lg text-sm text-gray-600 hover:text-tju-red hover:bg-red-50 transition-colors"
+                  data-year={year.replace(/\s+/g, '-')}
+                >
+                  <span>{year}</span>
+                  <span class="text-xs text-gray-400">{pubData[year].length}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Mobile Year Selector -->
+      <div class="lg:hidden sticky top-16 z-10 bg-white/95 backdrop-blur-sm -mx-4 px-4 py-3 border-b mb-6">
+        <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
+          {years.map((year) => (
+            <a
+              href={`#year-${year.replace(/\s+/g, '-')}`}
+              class="shrink-0 px-3 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-600 hover:bg-red-50 hover:text-tju-red transition-colors"
+            >
+              {year.replace('and Earlier', '前')}
+              <span class="text-xs text-gray-400 ml-1">({pubData[year].length})</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Papers List -->
+      <div class="flex-1 min-w-0">
+        {years.map((year) => (
+          <section id={`year-${year.replace(/\s+/g, '-')}`} class="mb-12 scroll-mt-24">
+            <!-- Year Header -->
+            <div class="flex items-center gap-4 mb-6">
+              <h2 class="text-2xl font-bold text-gray-900">{year}</h2>
+              <span class="text-sm text-gray-500 bg-gray-100 px-2.5 py-0.5 rounded-full">
+                {pubData[year].length} 篇
+              </span>
+              <div class="flex-1 h-px bg-gray-200"></div>
+            </div>
+
+            <!-- Papers -->
+            <div class="space-y-4">
+              {pubData[year].map((paper: any, idx: number) => {
+                const venueShort = getVenueShort(paper.venue);
+                const venueColorClass = getVenueColor(paper.venue);
+                return (
+                  <article class="group relative bg-white border border-gray-200 rounded-xl p-5 hover:border-red-200 hover:shadow-md transition-all duration-200">
+                    <div class="flex flex-col sm:flex-row sm:items-start gap-3">
+                      <div class="flex-1 min-w-0">
+                        {/* Title */}
+                        <h3 class="font-semibold text-gray-900 leading-snug group-hover:text-tju-red transition-colors">
+                          {paper.title}
+                        </h3>
+                        {/* Authors */}
+                        <p class="mt-2 text-sm text-gray-500 leading-relaxed">
+                          {paper.authors}
+                        </p>
+                        {/* Venue & Code */}
+                        <div class="mt-3 flex flex-wrap items-center gap-2">
+                          {venueShort ? (
+                            <span class={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${venueColorClass}`}>
+                              {venueShort}
+                            </span>
+                          ) : null}
+                          <span class="text-xs text-gray-400">{paper.venue}</span>
+                        </div>
+                      </div>
+                      {/* Code Button */}
+                      {paper.code && (
+                        <a
+                          href={paper.code}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 bg-gray-900 text-white text-xs font-medium rounded-lg hover:bg-tju-red transition-colors"
+                        >
+                          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                          </svg>
+                          Code
+                        </a>
+                      )}
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </section>
+        ))}
+
+        <!-- Back to Top -->
+        <div class="text-center py-8">
+          <a href="#" class="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-tju-red transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            </svg>
+            回到顶部
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Active year highlighting script -->
+  <script>
+    function updateActiveYear() {
+      const sections = document.querySelectorAll('section[id^="year-"]');
+      const navLinks = document.querySelectorAll('.year-nav-link');
+
+      let currentYear = '';
+      for (const section of sections) {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 150) {
+          currentYear = section.id;
+        }
+      }
+
+      navLinks.forEach(link => {
+        const el = link as HTMLElement;
+        const href = link.getAttribute('href');
+        if (href === `#${currentYear}`) {
+          el.classList.add('bg-red-50', 'text-tju-red', 'font-semibold');
+          el.classList.remove('text-gray-600');
+        } else {
+          el.classList.remove('bg-red-50', 'text-tju-red', 'font-semibold');
+          el.classList.add('text-gray-600');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveYear, { passive: true });
+    updateActiveYear();
+  </script>
 </Layout>

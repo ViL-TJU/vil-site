@@ -1,8 +1,93 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+
+const avatarColors = [
+  'bg-red-700', 'bg-amber-700', 'bg-emerald-700', 'bg-blue-700',
+  'bg-purple-700', 'bg-pink-700', 'bg-teal-700', 'bg-indigo-700',
+  'bg-orange-700', 'bg-cyan-700', 'bg-rose-700', 'bg-violet-700',
+];
+
+function getColor(name: string) {
+  let hash = 0;
+  for (const ch of name) hash = ch.charCodeAt(0) + ((hash << 5) - hash);
+  return avatarColors[Math.abs(hash) % avatarColors.length];
+}
+
+function getInitial(name: string) {
+  return name.slice(0, 1);
+}
+
+interface Student {
+  name: string;
+  grade: string;
+  research: string;
+}
+
+const phdStudents: Student[] = [
+  { name: "高丽清", grade: "2018级", research: "手语识别、多模态学习" },
+  { name: "赵俊庭", grade: "2020级", research: "医学图像分析" },
+  { name: "高冉",   grade: "2020级", research: "对抗样本、模型鲁棒性" },
+  { name: "张玉君", grade: "2020级", research: "视频分析、自动驾驶、3D场景感知" },
+  { name: "冯廷亮", grade: "2020级", research: "计算机视觉、图像识别、多模态" },
+  { name: "刘泽康", grade: "2020级", research: "手语识别、手语翻译" },
+  { name: "李楠",   grade: "2021级", research: "3D视觉、模式识别、深度学习" },
+  { name: "刘天灵", grade: "2021级", research: "医学影像处理、多模态学习" },
+  { name: "胡连宇", grade: "2021级", research: "多模态学习、视频理解、手语理解" },
+  { name: "田云彤", grade: "2021级", research: "领域自适应、持续学习、医学影像" },
+  { name: "王立凯", grade: "2022级", research: "视频分析与理解" },
+  { name: "张麒",   grade: "2022级", research: "计算机视觉、深度学习" },
+  { name: "陈强",   grade: "2023级", research: "多模态、分割" },
+  { name: "巩一璞", grade: "2023级", research: "计算机视觉、文化遗产预防性保护" },
+  { name: "李佳曦", grade: "2024级", research: "智能医学影像分析、领域自适应" },
+  { name: "张向群", grade: "2024级", research: "研究方向待定" },
+  { name: "董浩天", grade: "2024级", research: "3D场景补全" },
+  { name: "钱泽坤", grade: "2024级", research: "多视角检测跟踪、开放词汇检测跟踪" },
+];
+
+const masterStudents: Student[] = [
+  { name: "沈志静", grade: "2021级", research: "计算机视觉、数据增强" },
+  { name: "郑姝琪", grade: "2022级", research: "主动视觉、计算机视觉" },
+  { name: "王璐博", grade: "2022级", research: "3D场景理解、语义场景补全" },
+  { name: "王蔓玉", grade: "2022级", research: "深度学习" },
+  { name: "胡燕琳", grade: "2022级", research: "医学影像处理、影像组学" },
+  { name: "王松淼", grade: "2022级", research: "视频行为理解" },
+  { name: "李昭颖", grade: "2022级", research: "医学影像处理、长尾回归" },
+  { name: "郭梓皓", grade: "2022级", research: "自动驾驶、人机交互仿真" },
+  { name: "左谍",   grade: "2023级", research: "3D重建、图像修复、图像生成" },
+  { name: "相雪",   grade: "2023级", research: "医学影像处理" },
+  { name: "李玥沜", grade: "2023级", research: "持续学习" },
+  { name: "尹红梅", grade: "2023级", research: "持续学习、计算机视觉" },
+  { name: "石同凯", grade: "2023级", research: "多模态学习、动作生成、手语生成" },
+  { name: "冯纪超", grade: "2023级", research: "多模态、手语识别、手语翻译" },
+  { name: "张驰",   grade: "2023级", research: "主动视觉" },
+  { name: "叶康瑞", grade: "2023级", research: "深度学习和主动视觉" },
+  { name: "王子震", grade: "2023级", research: "主动视觉、微变检测" },
+  { name: "丁浩宇", grade: "2023级", research: "智能医学影像分析" },
+  { name: "彭记滨", grade: "2023级", research: "计算机视觉" },
+  { name: "冯昱中", grade: "2023级", research: "数字文化遗产" },
+  { name: "王正扬", grade: "2023级", research: "计算机视觉、多模态" },
+  { name: "魏金旭", grade: "2023级", research: "视频分析" },
+  { name: "刘沛东", grade: "2023级", research: "多模态、手语" },
+  { name: "黄钊",   grade: "2023级", research: "计算机视觉" },
+];
+
+function groupByGrade(students: Student[]): Record<string, Student[]> {
+  const groups: Record<string, Student[]> = {};
+  for (const s of students) {
+    if (!groups[s.grade]) groups[s.grade] = [];
+    groups[s.grade].push(s);
+  }
+  return groups;
+}
+
+const phdGroups = groupByGrade(phdStudents);
+const masterGroups = groupByGrade(masterStudents);
+const phdGrades = Object.keys(phdGroups).sort();
+const masterGrades = Object.keys(masterGroups).sort();
 ---
 
 <Layout title="在读学生" description="视觉智能实验室在读学生">
+  <!-- Header -->
   <div class="bg-gradient-to-br from-tju-red to-red-900 text-white py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h1 class="text-4xl lg:text-5xl font-bold mb-4">在读学生</h1>
@@ -10,6 +95,7 @@ import Layout from '../../layouts/Layout.astro';
     </div>
   </div>
 
+  <!-- Navigation Tabs -->
   <div class="border-b border-gray-200 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <nav class="flex space-x-8">
@@ -21,9 +107,66 @@ import Layout from '../../layouts/Layout.astro';
     </div>
   </div>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <div class="text-center">
-      <p class="text-gray-600">学生列表正在整理中...</p>
-    </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-16">
+
+    <!-- PhD Students -->
+    <section>
+      <div class="flex items-center gap-3 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900">博士研究生</h2>
+        <span class="px-3 py-1 bg-red-100 text-tju-red text-sm font-medium rounded-full">{phdStudents.length} 人</span>
+      </div>
+
+      {phdGrades.map((grade) => (
+        <div class="mb-10">
+          <h3 class="text-lg font-semibold text-gray-700 mb-4 border-l-4 border-tju-red pl-3">{grade}</h3>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {phdGroups[grade].map((student) => (
+              <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow flex items-start gap-4">
+                <div class={`${getColor(student.name)} w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0`}>
+                  {getInitial(student.name)}
+                </div>
+                <div class="min-w-0">
+                  <h4 class="font-semibold text-gray-900">{student.name}</h4>
+                  <p class="text-xs text-gray-500 mt-0.5">{student.grade}</p>
+                  <p class="text-sm text-gray-600 mt-1 leading-snug">{student.research}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <!-- Divider -->
+    <hr class="border-gray-200" />
+
+    <!-- Master Students -->
+    <section>
+      <div class="flex items-center gap-3 mb-8">
+        <h2 class="text-2xl font-bold text-gray-900">硕士研究生</h2>
+        <span class="px-3 py-1 bg-red-100 text-tju-red text-sm font-medium rounded-full">{masterStudents.length} 人</span>
+      </div>
+
+      {masterGrades.map((grade) => (
+        <div class="mb-10">
+          <h3 class="text-lg font-semibold text-gray-700 mb-4 border-l-4 border-tju-red pl-3">{grade}</h3>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {masterGroups[grade].map((student) => (
+              <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow flex items-start gap-4">
+                <div class={`${getColor(student.name)} w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0`}>
+                  {getInitial(student.name)}
+                </div>
+                <div class="min-w-0">
+                  <h4 class="font-semibold text-gray-900">{student.name}</h4>
+                  <p class="text-xs text-gray-500 mt-0.5">{student.grade}</p>
+                  <p class="text-sm text-gray-600 mt-1 leading-snug">{student.research}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
   </div>
 </Layout>

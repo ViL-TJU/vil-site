@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FFEDD5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg6)" rx="12"/>
+  <!-- Time T1 frame -->
+  <g transform="translate(30, 50)">
+    <rect width="130" height="100" rx="8" fill="white" stroke="#EA580C" stroke-width="2"/>
+    <text x="65" y="18" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#EA580C" font-weight="600">T₁</text>
+    <rect x="10" y="25" width="110" height="65" rx="4" fill="#FFF7ED"/>
+    <!-- Surface texture -->
+    <path d="M15 50 Q25 45 35 52 Q45 58 55 48 Q65 40 75 50 Q85 58 95 45 Q105 38 115 48" stroke="#EA580C" stroke-width="1" fill="none" opacity="0.3"/>
+    <path d="M15 65 Q30 60 45 67 Q60 72 75 63 Q90 58 105 65 Q110 67 115 63" stroke="#EA580C" stroke-width="1" fill="none" opacity="0.2"/>
+  </g>
+  <!-- Time T2 frame -->
+  <g transform="translate(30, 170)">
+    <rect width="130" height="100" rx="8" fill="white" stroke="#EA580C" stroke-width="2"/>
+    <text x="65" y="18" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#EA580C" font-weight="600">T₂</text>
+    <rect x="10" y="25" width="110" height="65" rx="4" fill="#FFF7ED"/>
+    <!-- Same surface with changes -->
+    <path d="M15 50 Q25 45 35 52 Q45 58 55 48 Q65 40 75 50 Q85 58 95 45 Q105 38 115 48" stroke="#EA580C" stroke-width="1" fill="none" opacity="0.3"/>
+    <path d="M15 65 Q30 60 45 67 Q60 72 75 63 Q90 58 105 65 Q110 67 115 63" stroke="#EA580C" stroke-width="1" fill="none" opacity="0.2"/>
+    <!-- Change spots -->
+    <circle cx="55" cy="50" r="8" fill="#EF4444" opacity="0.2" stroke="#EF4444" stroke-width="1.5"/>
+    <circle cx="90" cy="60" r="5" fill="#EF4444" opacity="0.2" stroke="#EF4444" stroke-width="1.5"/>
+    <path d="M50 55 L60 48" stroke="#EF4444" stroke-width="1"/>
+  </g>
+  <!-- Arrow between frames -->
+  <path d="M95 150 L95 170" stroke="#EA580C" stroke-width="2" opacity="0.5"/>
+  <polygon points="91,168 95,176 99,168" fill="#EA580C" opacity="0.5"/>
+  <text x="120" y="164" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">Time passes</text>
+  <!-- Change detection result -->
+  <g transform="translate(200, 60)">
+    <rect width="170" height="180" rx="10" fill="white" stroke="#9B0000" stroke-width="2"/>
+    <text x="85" y="25" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#9B0000" font-weight="600">Change Detection</text>
+    <!-- Difference map -->
+    <rect x="15" y="35" width="140" height="90" rx="6" fill="#FFF7ED"/>
+    <!-- Heatmap representation -->
+    <circle cx="65" cy="70" r="18" fill="#EF4444" opacity="0.15"/>
+    <circle cx="65" cy="70" r="12" fill="#EF4444" opacity="0.2"/>
+    <circle cx="65" cy="70" r="6" fill="#EF4444" opacity="0.3"/>
+    <circle cx="110" cy="85" r="12" fill="#EAB308" opacity="0.15"/>
+    <circle cx="110" cy="85" r="7" fill="#EAB308" opacity="0.2"/>
+    <!-- Scale bar -->
+    <rect x="15" y="135" width="140" height="8" rx="4" fill="none"/>
+    <rect x="15" y="135" width="35" height="8" rx="4 0 0 4" fill="#22C55E" opacity="0.5"/>
+    <rect x="50" y="135" width="35" height="8" fill="#EAB308" opacity="0.5"/>
+    <rect x="85" y="135" width="35" height="8" fill="#EA580C" opacity="0.5"/>
+    <rect x="120" y="135" width="35" height="8" rx="0 4 4 0" fill="#EF4444" opacity="0.5"/>
+    <text x="32" y="157" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#22C55E">Low</text>
+    <text x="137" y="157" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#EF4444">High</text>
+    <text x="85" y="170" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">Change Intensity</text>
+  </g>
+  <!-- Label -->
+  <text x="200" y="280" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#EA580C" font-weight="600">Micro-change Visual Perception</text>
+</svg>

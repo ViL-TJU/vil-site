@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg2)" rx="12"/>
+  <!-- Image modality -->
+  <g transform="translate(40, 50)">
+    <rect width="100" height="75" rx="8" fill="white" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="10" y="10" width="80" height="45" rx="4" fill="#EDE9FE"/>
+    <circle cx="30" cy="30" r="8" fill="#7C3AED" opacity="0.4"/>
+    <path d="M10 45 L30 30 L50 38 L70 22 L90 35 L90 55 L10 55Z" fill="#7C3AED" opacity="0.2"/>
+    <text x="50" y="70" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#7C3AED">Image</text>
+  </g>
+  <!-- Text modality -->
+  <g transform="translate(40, 170)">
+    <rect width="100" height="75" rx="8" fill="white" stroke="#9B0000" stroke-width="2"/>
+    <rect x="15" y="15" width="50" height="6" rx="3" fill="#9B0000" opacity="0.3"/>
+    <rect x="15" y="27" width="70" height="4" rx="2" fill="#9B0000" opacity="0.15"/>
+    <rect x="15" y="35" width="60" height="4" rx="2" fill="#9B0000" opacity="0.15"/>
+    <rect x="15" y="43" width="65" height="4" rx="2" fill="#9B0000" opacity="0.15"/>
+    <text x="50" y="70" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#9B0000">Text</text>
+  </g>
+  <!-- Audio / gesture modality -->
+  <g transform="translate(40, 105)">
+    <rect width="100" height="55" rx="8" fill="white" stroke="#2563EB" stroke-width="2" opacity="0.8"/>
+    <!-- Hand gesture icon -->
+    <path d="M50 20 L50 10 M45 22 L42 12 M55 22 L58 12 M60 26 L65 18 M40 28 L35 22" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="50" cy="35" r="10" fill="#DBEAFE"/>
+    <text x="50" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#2563EB">Gesture</text>
+  </g>
+  <!-- Fusion center -->
+  <g transform="translate(200, 100)">
+    <circle cx="50" cy="50" r="45" fill="white" stroke="#9B0000" stroke-width="2"/>
+    <circle cx="50" cy="50" r="35" fill="#FEF2F2"/>
+    <!-- Brain/fusion icon -->
+    <path d="M40 45 Q35 35 45 32 Q50 25 58 32 Q68 35 63 45 Q68 55 58 58 Q50 65 42 58 Q35 55 40 45Z" fill="#9B0000" opacity="0.15" stroke="#9B0000" stroke-width="1.5"/>
+    <text x="50" y="53" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#9B0000" font-weight="600">Fusion</text>
+  </g>
+  <!-- Connection lines -->
+  <line x1="140" y1="87" x2="210" y2="130" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="4" opacity="0.5"/>
+  <line x1="140" y1="132" x2="210" y2="145" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="4" opacity="0.5"/>
+  <line x1="140" y1="207" x2="210" y2="170" stroke="#9B0000" stroke-width="1.5" stroke-dasharray="4" opacity="0.5"/>
+  <!-- Output -->
+  <g transform="translate(310, 110)">
+    <rect width="70" height="80" rx="8" fill="white" stroke="#9B0000" stroke-width="2"/>
+    <text x="35" y="30" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#9B0000" font-weight="600">Output</text>
+    <rect x="10" y="40" width="50" height="6" rx="3" fill="#22C55E" opacity="0.4"/>
+    <rect x="10" y="52" width="40" height="6" rx="3" fill="#22C55E" opacity="0.3"/>
+    <rect x="10" y="64" width="45" height="6" rx="3" fill="#22C55E" opacity="0.2"/>
+  </g>
+  <line x1="295" y1="150" x2="310" y2="150" stroke="#9B0000" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow)"/>
+  <!-- Label -->
+  <text x="200" y="275" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" fill="#7C3AED" font-weight="600">Multimodal Understanding</text>
+</svg>

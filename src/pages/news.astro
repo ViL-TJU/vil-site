@@ -1,34 +1,166 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const newsItems = [
+  {
+    date: '2024-01-16',
+    title: '2023ViL年会文艺汇演 | 新年新气象，就这么开心！',
+    content: '在年度工作总结中，我们回顾了过去一年的成果，展望了未来的发展，共同探讨前行的道路。接下来，我们进行了年会文艺汇演，一起开启新的旅程。',
+  },
+  {
+    date: '2024-01-15',
+    title: '2023ViL年度总结｜踔厉奋发谱新篇，勇毅前行创辉煌',
+    content: '新征程，再出发！回顾2023，ViL实验室在人才培养、科研成果、社会服务、团队建设等诸多方面均取得了丰硕的成果。现有教授3名，长聘副教授2名，博士生19名，硕士生34名。2023年度实验室获批国家重点研发项目级1项、课题级1项；发表CCF A类论文14篇，SCI一区6篇；申请或授权知识产权24件。团队荣获中国国际大学生创新大赛金奖、ACM中国优博论文提名奖等。',
+  },
+  {
+    date: '2023-09-06',
+    title: '天津大学视觉智能实验室两位博士生边存灵、张乾顺利通过博士学位答辩',
+    content: '近期，天津大学智能与计算学部视觉智能实验室的两位博士生边存灵、张乾进行了博士学位论文答辩。',
+  },
+  {
+    date: '2023-07-27',
+    title: '2022金秋迎新 | ViL天大视觉智能实验室新生见面会',
+    content: '近日，ViL实验室在天津大学北洋园校区55教学楼举行了2022年度新生见面会。冯伟老师首先简要介绍了实验室的人员构成、研究布局、重点研究方向以及2021年的学生培养情况。他重点强调实验室的科研价值观是"做解决问题的Research"，要致力于解决实际场景中存在的真问题、难问题。',
+  },
+  {
+    date: '2023-04-15',
+    title: '天大视觉智能实验室科研成果精彩亮相第七届世界智能大会',
+    content: '2023年5月18日，第七届世界智能大会在国家会展中心（天津）开幕。来自天津大学智能与计算学部视觉智能实验室以"智能+文化遗产保护"为主题的两项科技成果精彩亮相。',
+  },
+];
+
+const honors = [
+  {
+    date: '2023-04-23',
+    title: '中国国际大学生创新大赛金奖',
+    content: '李楠、张麒、张乾等同学主要参与，冯伟、万亮等担任指导老师的团队，在2023年中国国际大学生创新大赛中获得金奖。',
+    icon: '🏆',
+  },
+  {
+    date: '2023-04-23',
+    title: 'ACM中国优博论文提名奖',
+    content: 'ViL毕业生韩瑞泽的毕业论文获评ACM中国优博论文提名奖及ACM中国（天津）优博论文奖，指导教师为冯伟教授。',
+    icon: '📄',
+  },
+];
+
+// Group news by year
+const newsByYear = newsItems.reduce((groups: Record<string, typeof newsItems>, item) => {
+  const year = item.date.slice(0, 4);
+  if (!groups[year]) groups[year] = [];
+  groups[year].push(item);
+  return groups;
+}, {});
+
+const years = Object.keys(newsByYear).sort((a, b) => Number(b) - Number(a));
+
+function formatDate(dateStr: string) {
+  const [y, m, d] = dateStr.split('-');
+  return { year: y, month: m, day: d };
+}
 ---
 
-<Layout title="新闻动态" description="视觉智能实验室新闻动态">
+<Layout title="新闻动态" description="视觉智能实验室新闻动态与荣誉奖项">
+  <!-- Page Header -->
   <div class="bg-gradient-to-br from-tju-red to-red-900 text-white py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="text-4xl lg:text-5xl font-bold mb-4">新闻动态</h1>
-      <p class="text-xl text-red-100">News & Events</p>
+      <h1 class="text-4xl lg:text-5xl font-bold mb-4 animate-fade-in">新闻动态</h1>
+      <p class="text-xl text-red-100 animate-fade-in" style="animation-delay: 0.15s;">News & Events</p>
     </div>
   </div>
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <div class="space-y-6">
-      <div class="bg-white rounded-xl shadow-md p-6">
-        <div class="text-sm text-gray-500 mb-2">2024-01-25</div>
-        <h2 class="text-xl font-bold text-gray-900 mb-2">实验室在数字文化遗产保护领域取得新进展</h2>
-        <p class="text-gray-600">相关成果已在敦煌研究院和湖南博物院部署使用，为文物保护提供了先进的技术手段。</p>
+
+    <!-- Honors Section -->
+    <section class="mb-20">
+      <div class="flex items-center gap-3 mb-8">
+        <div class="w-1.5 h-8 bg-tju-gold rounded-full"></div>
+        <h2 class="text-2xl lg:text-3xl font-bold text-gray-900">荣誉奖项</h2>
+        <span class="text-lg text-gray-400 font-medium ml-1">Honors & Awards</span>
       </div>
 
-      <div class="bg-white rounded-xl shadow-md p-6">
-        <div class="text-sm text-gray-500 mb-2">2024-01-20</div>
-        <h2 class="text-xl font-bold text-gray-900 mb-2">多篇论文被顶级会议录用</h2>
-        <p class="text-gray-600">实验室成员在CVPR、ICCV等顶级会议发表论文，展示了在计算机视觉领域的前沿研究成果。</p>
+      <div class="grid md:grid-cols-2 gap-6 stagger-children">
+        {honors.map((honor) => (
+          <div class="relative bg-white rounded-xl border border-amber-200 shadow-md hover:shadow-lg transition-shadow p-6 overflow-hidden group">
+            <!-- Decorative ribbon -->
+            <div class="absolute top-0 right-0 w-20 h-20 overflow-hidden">
+              <div class="absolute top-3 right-[-24px] w-24 text-center text-xs font-bold text-white bg-tju-gold rotate-45 py-0.5 shadow">
+                Award
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="flex-shrink-0 w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center text-2xl border border-amber-200">
+                <span>{honor.icon}</span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="text-sm text-tju-gold font-medium mb-1">{honor.date}</div>
+                <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-tju-red transition-colors">{honor.title}</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">{honor.content}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- News Timeline -->
+    <section>
+      <div class="flex items-center gap-3 mb-10">
+        <div class="w-1.5 h-8 bg-tju-red rounded-full"></div>
+        <h2 class="text-2xl lg:text-3xl font-bold text-gray-900">新闻资讯</h2>
+        <span class="text-lg text-gray-400 font-medium ml-1">News</span>
       </div>
 
-      <div class="bg-white rounded-xl shadow-md p-6">
-        <div class="text-sm text-gray-500 mb-2">2024-01-15</div>
-        <h2 class="text-xl font-bold text-gray-900 mb-2">实验室与医院开展深度合作</h2>
-        <p class="text-gray-600">医学影像处理方向与多家三甲医院建立合作关系，推动AI技术在医疗诊断中的应用。</p>
+      <div class="space-y-16">
+        {years.map((year) => (
+          <div>
+            <!-- Year Header -->
+            <div class="flex items-center gap-4 mb-8">
+              <span class="text-4xl font-bold text-tju-red/20">{year}</span>
+              <div class="flex-1 h-px bg-gray-200"></div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="relative pl-8 md:pl-12">
+              <!-- Vertical line -->
+              <div class="absolute left-3 md:left-5 top-0 bottom-0 w-px bg-gray-200"></div>
+
+              <div class="space-y-8">
+                {newsByYear[year].map((item) => {
+                  const d = formatDate(item.date);
+                  return (
+                    <div class="relative group">
+                      <!-- Timeline dot -->
+                      <div class="absolute -left-5 md:-left-7 top-1 w-4 h-4 rounded-full border-2 border-tju-red bg-white group-hover:bg-tju-red transition-colors"></div>
+
+                      <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 p-6">
+                        <div class="flex flex-wrap items-center gap-3 mb-3">
+                          <!-- Date badge -->
+                          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium bg-red-50 text-tju-red">
+                            <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                            </svg>
+                            {d.year}-{d.month}-{d.day}
+                          </span>
+                        </div>
+
+                        <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-tju-red transition-colors leading-snug">
+                          {item.title}
+                        </h3>
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
+                          {item.content}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
+
   </div>
 </Layout>

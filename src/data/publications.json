@@ -1,0 +1,1580 @@
+{
+  "2025": [
+    {
+      "title": "NoiseController: Towards Consistent Multi-view Video Generation via Noise Decomposition and Collaboration",
+      "authors": "Haotian Dong, Xin Wang, Di Lin, Yipeng Wu, Qin Chen, Ruonan Liu, Kairui Yang, Ping Li, Qing Guo",
+      "venue": "International Conference on Computer Vision (ICCV), 2025"
+    },
+    {
+      "title": "GReg: Geometry-Aware Region Refinement for Sign Language Video Generation",
+      "authors": "Tongkai Shi, Lianyu Hu, Fanhua Shang, Liqing Gao, Wei Feng",
+      "venue": "International Conference on Computer Vision (ICCV), 2025"
+    },
+    {
+      "title": "COVTrack: Continuous Open-Vocabulary Multi-Object Tracking via Adaptive Multi-Cue Fusion",
+      "authors": "Zekun Qian, Ruize Han, Zhixiang Wang, Junhui Hou, Wei Feng",
+      "venue": "International Conference on Computer Vision (ICCV), 2025"
+    },
+    {
+      "title": "VOVTrack: Exploring the Potentiality in Raw Videos for Open-Vocabulary Multi-Object Tracking",
+      "authors": "Zekun Qian, Ruize Han, Junhui Hou, Linqi Song, Wei Feng",
+      "venue": "International Conference on Computer Vision (ICCV), 2025"
+    },
+    {
+      "title": "SU-RGS: Relightable 3D Gaussian Splatting from Sparse Views under Unconstrained Illuminations",
+      "authors": "Qi Zhang, Chi Huang, Qian Zhang, Nan Li, Wei Feng",
+      "venue": "International Conference on Computer Vision (ICCV), 2025"
+    },
+    {
+      "title": "FedAGC: Federated Continual Learning with Asymmetric Gradient Correction",
+      "authors": "Chengchao Zhang, Fanhua Shang, Hongying Liu, Liang Wan, Wei Feng",
+      "venue": "International Conference on Computer Vision (ICCV), 2025"
+    },
+    {
+      "title": "Improving Generalization in Federated Learning with Highly Heterogeneous Data via Momentum-Based Stochastic Controlled Weight Averaging",
+      "authors": "Junkang Liu, Yuanyuan Liu, Fanhua Shang, Hongying Liu, Jin Liu, Wei Feng",
+      "venue": "International Conference on Machine Learning (ICML), 2025"
+    },
+    {
+      "title": "Point-to-Set Metric-Gated Mixture of Experts for Multi-Source Domain Adaptation Fault Diagnosis",
+      "authors": "Jinyuan Zhang, Boyuan Yang, Ruonan Liu, Di Lin, Ping Li, C. L. Philip Chen",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2025"
+    },
+    {
+      "title": "Temporal-Interim Pose Synthesis and Distillation for Dynamic Human Pose Estimation",
+      "authors": "Renjie Zhang, Di Lin, Xin Wang, Ruonan Liu, Bin Sheng, George Baciu, C. L. Philip Chen, Ping Li",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2025"
+    },
+    {
+      "title": "SceneTAP: Scene-Coherent Typographic Adversarial Planner against Vision-Language Models in Real-World Environments",
+      "authors": "Yue Cao, Yun Xing, Jie Zhang, Di Lin, Tianwei Zhang, Ivor Tsang, Yang Liu, Qing Guo",
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2025"
+    },
+    {
+      "title": "Generative Hard Example Augmentation for Semantic Point Cloud Segmentation",
+      "authors": "Qi Zhang, Jibin Peng, Zhao Huang, Wei Feng, Di Lin",
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2025"
+    },
+    {
+      "title": "Beyond Background Shift: Rethinking Instance Replay in Continual Semantic Segmentation",
+      "authors": "Hongmei Yin, Tingliang Feng, Fan Lyu, Fanhua Shang, Hongying Liu, Wei Feng, Liang Wan",
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2025"
+    },
+    {
+      "title": "Dual Semantic Guidence for Open Vocabulary Semantic Segmentation",
+      "authors": "Zhengyang Wang, Tingliang Feng, Fan Lyu, Fanhua Shang, Wei Feng, Liang Wan",
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2025"
+    },
+    {
+      "title": "Synthetic-To-Real Video Person Re-ID",
+      "authors": "Xiangqun Zhang, Ruize Han, Likai Wang, Linqi Song, Junhui Hou, Wei Feng",
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS), 2025"
+    },
+    {
+      "title": "A New Benchmark and Algorithm for Clothes-Changing Video Person Re-Identification",
+      "authors": "Likai Wang, Xiangqun Zhang, Ruize Han, Yanjie Wei, Song Wang, Wei Feng",
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS), 2025"
+    },
+    {
+      "title": "mmFAS: Multimodal Face Anti-Spoofing Using Multi-Level Alignment and Switch-Attention Fusion",
+      "authors": "Geng Chen, Wuyuan Xie, Di Lin, Ye Liu, Miaohui Wang",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2025"
+    },
+    {
+      "title": "Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving",
+      "authors": "Kairui Yang, Zihao Guo, Gengjie Lin, Haotian Dong, Zhao Huang, Yipeng Wu, Die Zuo, Jibin Peng, Ziyuan Zhong, Xin Wang, Qing Guo, Xiaosong Jia, Junchi Yan, Di Lin",
+      "venue": "International Conference on Learning Representation (ICLR), 2025"
+    }
+  ],
+  "2024": [
+    {
+      "title": "Benchmarking the Complementary-View Multi-human Association and Tracking",
+      "authors": "Ruize Han, Wei Feng, Feifan Wang, Zekun Qian, Haomin Yan, Song Wang",
+      "venue": "International Journal of Computer Vision (IJCV)"
+    },
+    {
+      "title": "Deep Correlated Prompting for Visual Recognition with Missing Modalities",
+      "authors": "Lianyu Hu, Tongkai Shi, Wei Feng, Fanhua Shang, Liang Wan",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2024",
+      "code": "https://github.com/hulianyuyy/Deep_Correlated_Prompting"
+    },
+    {
+      "title": "Voxel Proposal Network via Multi-Frame Knowledge Distillation for Semantic Scene Completion",
+      "authors": "Lubo Wang, Kairui Yang, Qing Guo, Wuyuan Xie, Miaohui Wang, Ping Li, Lingyu Liang, Yi Wang, Ruonan Liu, Di Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2024"
+    },
+    {
+      "title": "Sim2Real-Fire: A Multi-modal Simulation Dataset for Forecast and Backtracking of Real-world Forest Fire",
+      "authors": "Yanzhi Li, Keqiu Li, Guohui Li, Zumin Wang, Chanqing Ji, Lubo Wang, Die Zuo, Qing Guo, Feng Zhang, Manyu Wang, Di Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2024"
+    },
+    {
+      "title": "Learning Geometry Consistent Neural Radiance Fields from Sparse and Unposed Views",
+      "authors": "Qi Zhang, Chi Huang, Qian Zhang, Nan Li, Wei Feng",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2024"
+    },
+    {
+      "title": "Rethinking the One-shot Object Detection: Cross-Domain Object Search",
+      "authors": "Yupeng Zhang, Shuqi Zheng, Ruize Han, Yuzhong Feng, Junhui Hou, Linqi Song, Wei Feng, Liang Wan",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2024"
+    },
+    {
+      "title": "Pose-Guided Fine-Grained Sign Language Video Generation",
+      "authors": "Tongkai Shi, Lianyu Hu, Fanhua Shang, Jichao Feng, Peidong Liu, Wei Feng",
+      "venue": "European Conference on Computer Vision (ECCV), 2024",
+      "code": "https://github.com/shitongkai/PGMM"
+    },
+    {
+      "title": "Cross-modal knowledge distillation for continuous sign language recognition",
+      "authors": "Liqing Gao, Peng Shi, Lianyu Hu, Jichao Feng, Lei Zhu, Liang Wan, Wei Feng",
+      "venue": "Neural Networks"
+    },
+    {
+      "title": "Overcoming Modality Bias in Question-Driven Sign Language Video Translation",
+      "authors": "Liqing Gao, Fan Lyu, Peng Shi, Lei Zhu, Junfu Pu, Liang Wan, Wei Feng",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "title": "Adversarial Relighting Against Face Recognition",
+      "authors": "Qian Zhang, Qing Guo, Ruijun Gao, Felix Juefei",
+      "venue": "Xu, Hongkai Yu, Wei Feng - IEEE Transactions on Information Forensics and Security"
+    },
+    {
+      "title": "Learning Physical-Spatio-Temporal Features for Video Shadow Removal",
+      "authors": "Zhihao Chen, Liang Wan,Yefan Xiao, Lei Zhu, Huazhu Fu",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "title": "Self-Mining the Confident Prototypes for Source-Free Unsupervised Domain Adaptation in Image Segmentation",
+      "authors": "Yuntong Tian, Jiaxi Li, Huazhu Fu, Lei Zhu, Lequan Yu, Liang Wan",
+      "venue": "IEEE Transactions on Multimedia"
+    },
+    {
+      "title": "From a Birds Eye View to See: Joint Camera and Subject Registration without the Camera Calibration",
+      "authors": "Zekun Qian, Ruize Han, Wei Feng, Song Wang",
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2024"
+    },
+    {
+      "title": "LRR: Language-Driven Resamplable Continuous Representation against Adversarial Tracking Attacks",
+      "authors": "Jianlang Chen, Xuhong Ren, Qing Guo, Felix Juefei",
+      "venue": "Xu, Di Lin, Wei Feng, Lei Ma, Jianjun Zhao - International Conference on Learning Representation (ICLR), 2024"
+    },
+    {
+      "title": "COMMA: Co-Articulated Multi-Modal Learning",
+      "authors": "Lianyu Hu, Liqing Gao, Zekang liu, Chi",
+      "venue": "Man Pun, Wei Feng - AAAI Conference on Artificial Intelligence (AAAI), 2024.",
+      "code": "https://github.com/hulianyuyy/COMMA"
+    },
+    {
+      "title": "SAVSR: Arbitrary-Scale Video Super-Resolution via A Learned Scale-Adaptive Network",
+      "authors": "Zekun Li, Hongying Liu, Fanhua Shang, Yuanyuan Liu, Liang Wan, Wei Feng",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2024"
+    },
+    {
+      "title": "Long-Tailed Learning as Multi-Objective Optimization",
+      "authors": "Weiqi Li, Fan Lyu, Fanhua Shang, Liang Wan, Wei Feng",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2024"
+    }
+  ],
+  "2023": [
+    {
+      "title": "Surface Geometry Processing: An Efficient Normal-based Detail Representation",
+      "authors": "Wuyuan Xie, Miaohui Wang, Di Lin, Boxin Shi, Jianmin Jiang",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023"
+    },
+    {
+      "title": "Gradient Correction for White-Box Adversarial Attacks",
+      "authors": "Hongying Liu, Zhijin Ge, Zhenyu Zhou, Fanhua Shang, Yuanyuan Liu, Licheng Jiao",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2023"
+    },
+    {
+      "title": "Benchmarking the Complementary-View Multi-human Association and Tracking",
+      "authors": "Ruize Han, Wei Feng, Feifan Wang, Zekun Qian, Haomin Yan, Song Wang",
+      "venue": "International Journal of Computer Vision (IJCV), 2023"
+    },
+    {
+      "title": "Relating View Directions of Complementary-View Mobile Cameras via the Human Shadow",
+      "authors": "Ruize Han, Yiyang Gan, Likai Wang, Nan Li, Wei Feng, Song Wang",
+      "venue": "International Journal of Computer Vision (IJCV), 2023"
+    },
+    {
+      "title": "Boosting Adversarial Transferability by Achieving Flat Local Maxima",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Weixin An, Junhao Liu, Hongying Liu, Zhouchen Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    },
+    {
+      "title": "A Single-Loop Accelerated Extra-Gradient Difference Algorithm with Improved Complexity Bounds for Constrained Minimax Optimization",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Weixin An, Junhao Liu, Hongying Liu, Zhouchen Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    },
+    {
+      "title": "Open Compound Domain Adaptation with Object Style Compensation for Semantic Segmentation",
+      "authors": "Tingliang Feng, Hao Shi, Xueyang Liu, Wei Feng, Liang Wan, Yanlin Zhou, Di Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    },
+    {
+      "title": "Self-Emphasizing Network for Continuous Sign Language Recognition",
+      "authors": "Lianyu Hu, Liqing Gao, Zekang liu, Wei Feng",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI Oral), 2023.",
+      "code": "https://github.com/hulianyuyy/SEN_CSLR"
+    },
+    {
+      "title": "Continuous Sign Language Recognition with Correlation Network",
+      "authors": "Lianyu Hu, Liqing Gao, Zekang Liu, Wei Feng",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.",
+      "code": "https://github.com/hulianyuyy/CorrNet"
+    },
+    {
+      "title": "CVSformer: Cross-View Synthesis Transformer for Semantic Scene Completion",
+      "authors": "Haotian Dong, Enhui Ma, Lubo Wang, Miaohui Wang, Wuyuan Xie, Qing Guo, Ping Li, Lingyu Liang, Kairui Yang, Di Lin",
+      "venue": "International Conference on Computer Vision (ICCV), 2023"
+    },
+    {
+      "title": "Leveraging Inpainting for Single-Image Shadow Removal",
+      "authors": "Xiaoguang Li, Qing Guo, Rabab Abdelfattah, Di Lin, Wei Feng, Ivor Tsang, Song Wang",
+      "venue": "International Conference on Computer Vision (ICCV), 2023.",
+      "code": "https://github.com/tsingqguo/inpaint4shadow"
+    },
+    {
+      "title": "Measuring asymmetric gradient discrepancy in parallel continual learning",
+      "authors": "Fan Lyu, Qing Sun, Fanhua Shang, Liang Wan, Wei Feng",
+      "venue": "International Conference on Computer Vision (ICCV), 2023"
+    },
+    {
+      "title": "Improving the Transferability of Adversarial Examples with Arbitrary Style Transfer",
+      "authors": "Zhijin Ge, Fanhua Shang, Hongying Liu, Yuanyuan Liu, Liang Wan, Wei Feng, Xiaosen Wang",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
+      "code": "https://github.com/Zhijin-Ge/STM"
+    },
+    {
+      "title": "AdaBrowse: Adaptive Video Browser for Efficient Continuous Sign Language Recognition",
+      "authors": "Lianyu Hu, Liqing Gao, Zekang Liu, Chi",
+      "venue": "Man Pun, Wei Feng - ACM International Conference on Multimedia (ACM MM Oral), 2023.",
+      "code": "https://github.com/hulianyuyy/AdaBrowse"
+    },
+    {
+      "title": "Global-local contrastive multiview representation learning for skeleton-based action recognition",
+      "authors": "Cunling Bian, Wei Feng, Fanbo Meng, Song Wang",
+      "venue": "Computer Vision and Image Understanding (CVIU), 2023"
+    },
+    {
+      "title": "Difference-guided multi-scale spatial-temporal representation for sign language recognition",
+      "authors": "Liqing Gao, Lianyu Hu, Fan Lyu, Lei Zhu, Liang Wan, Chi",
+      "venue": "Man Pun, Wei Feng - The Visual Computer (TVC), 2023"
+    },
+    {
+      "title": "Multi-modal Fusion Architecuture Search for Camera-based Semantic Scene Completion",
+      "authors": "Xuzhi Wang, Wei Feng, Liang Wan",
+      "venue": "Expert Systems with Applications (ESWA), 2023"
+    },
+    {
+      "title": "Phase-based Fine-grained Change Detection",
+      "authors": "Xuzhi Wang, Liang Wan, Di Lin, Wei Feng",
+      "venue": "Expert Systems with Applications (ESWA), 2023"
+    },
+    {
+      "title": "Skeleton-Based Action Recognition with Local Dynamic Spatial-Temporal Aggregation",
+      "authors": "Lianyu Hu, Shenglan Liu, Wei Feng",
+      "venue": "Expert Systems with Applications (ESWA), 2023.",
+      "code": "https://github.com/hulianyuyy/STGAT"
+    },
+    {
+      "title": "Arbitrary-scale super-resolution via deep learning: A comprehensive survey",
+      "authors": "Hongying Liu, Zekun Li, Fanhua Shang, Yuanyuan Liu, Liang Wan, Wei Feng, Radu Timofte",
+      "venue": "Information Fusion, 2023"
+    },
+    {
+      "title": "基于深度学习的医学图像分析域自适应研究综述",
+      "authors": "李佳燨, 刘红英, 万亮",
+      "venue": "计算机应用研究, 2023"
+    },
+    {
+      "title": "Multi-modal deep-fusion network for meningioma presurgical grading with integrative imaging and clinical data",
+      "authors": "Wennan Liu, Tianling Liu, Tong Han, Liang Wan",
+      "venue": "The Visual Computer (TVC), 2023"
+    },
+    {
+      "title": "Uncertainty-aware Multi-dimensional Mutual Learning for Brain and Brain Tumor Segmentation",
+      "authors": "Junting Zhao, Zhaohu Xing, Zhihao Chen, Liang Wan, Tong Han, Huazhu Fu, Lei Zhu",
+      "venue": "IEEE Journal of Biomedical and Health Informatics (JBHI), 2023"
+    },
+    {
+      "title": "Scalable Frame Resolution for Efficient Continuous Sign Language Recognition",
+      "authors": "Lianyu Hu, Liqing Gao, Zekang Liu, Wei Feng",
+      "venue": "Pattern Recognition (PR), 2023"
+    },
+    {
+      "title": "Multi-Scale Context-Aware Network for Continuous Sign Language Recognition",
+      "authors": "Senhua Xue, Liqing Gao, Liang Wan, Wei Feng",
+      "venue": "Computer Graphics International (CGI), 2023"
+    },
+    {
+      "title": "Multi-Head Multi-Scale Feature Fusion Network for Semantic Scene Completion",
+      "authors": "Di Lin, Haotian Dong, Enhui Ma, Lubo Wang, Ping Li",
+      "venue": "International Conference on Artificial Intelligence and Education (ICAIE), 2023"
+    },
+    {
+      "title": "Dual Mixed Style Augmentation for Generalized Medical Image Segmentation",
+      "authors": "Jiaxi Li, Yuntong Tian, Liang Wan",
+      "venue": "Artificial Intelligence and Pattern Recognition (AIPR), 2023"
+    },
+    {
+      "title": "Combining the Silhouette and Skeleton Data for Gait Recognition",
+      "authors": "Likai Wang, Ruize Han, Wei Feng",
+      "venue": "IEEE InternationalConference on Acoustics, Speech and Signal Processing (ICASSP), 2023"
+    },
+    {
+      "title": "Medical Phrase Grounding with Region-Phrase Context Contrastive Alignment",
+      "authors": "Zhihao Chen, Yang Zhou, Anh Tran, Junting Zhao, Liang Wan",
+      "venue": "Medical Image Computing and Computer Assisted Intervention Society (MICCAI), 2023"
+    }
+  ],
+  "2022": [
+    {
+      "title": "TAGNet: Learning Configurable Context Pathways for Semantic Segmentation",
+      "authors": "Di Lin, Dingguo Shen, Yuanfeng Ji, Siting Shen, Mingrui Xie, Wei Feng, Hui Huang",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022"
+    },
+    {
+      "title": "Multi-vew multihuman association with deep assignment network",
+      "authors": "Ruize Han, Yun Wang, Haomin Yan, Wei Feng, Song Wang",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2022.",
+      "code": "https://github.com/RuizeHan/DAN4Ass"
+    },
+    {
+      "title": "Effective and Fast: A Novel Sequential Single Path Search for Mixed-Precision Quantization",
+      "authors": "Qigong Sun, Licheng Jiao, Yan Ren, Xiufang Li, Fanhua Shang, Fang Liu",
+      "venue": "IEEE Transactions on Cybernetics (TCYB), 2022"
+    },
+    {
+      "title": "Kill a Bird with Two Stones: Closing the Convergence Gaps in Non-Strongly Convex Optimization by Directly Accelerated SVRG with Double Compensation and Snapshots",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Weixin An, Hongying Liu, Zhouchen Lin",
+      "venue": "International Conference on Machine Learning (ICML), 2022"
+    },
+    {
+      "title": "Cross-Image Context for Single Image Inpainting",
+      "authors": "Tingliang Feng, Wei Feng, Weiqi Li, Di Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2022"
+    },
+    {
+      "title": "Exploring Example Influence in Continual Learning",
+      "authors": "Qing Sun, Fan Lyu, Fanhua Shang, Wei Feng, Liang Wan",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2022.",
+      "code": "https://github.com/sssunqing/example_influence_cl"
+    },
+    {
+      "title": "Generative Status Estimation and Information Decoupling for Image Rain Removal",
+      "authors": "Di Lin, Xin Wang, Jia Shen, Renjie Zhang, Ruonan Liu, Miaohui Wang, Wuyuan Xie, Qing Guo, Ping Li",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2022"
+    },
+    {
+      "title": "HNO: High-order Numerical Architecture for ODE-Inspired Deep Unfolding Networks",
+      "authors": "Lin Kong, Wei Sun, Fanhua Shang, Yuanyuan Liu, Hongying Liu",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2022"
+    },
+    {
+      "title": "FFNet: Frequency Fusion Network for Semantic Scene Completion",
+      "authors": "Xuzhi Wang, Di Lin, Liang Wan",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2022"
+    },
+    {
+      "title": "Can you spot the chameleon? Adversarially camouflaging images from co-salient object detection",
+      "authors": "Ruijun Gao, Qing Guo, Felix Juefei",
+      "venue": "Xu, Hongkai Yu, Huazhu Fu, Wei Feng*, Yang Liu,Song Wang - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.",
+      "code": "https://github.com/tsingqguo/jadena"
+    },
+    {
+      "title": "Connect-ing the complementary-view videos: Joint camera identification and subject association",
+      "authors": "Ruize Han, Yiyang Gan, Jiacheng Li, Feifan Wang, Wei Feng, Song Wang",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.",
+      "code": "https://github.com/RuizeHan/DMHA"
+    },
+    {
+      "title": "NestedFormer: Nested modality-aware transformer for brain tumor segmentation",
+      "authors": "Zhaohu Xing, Lequan Yu, Liang Wan, Tong Han, Lei Zhu",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022.",
+      "code": "https://github.com/920232796/NestedFormer"
+    },
+    {
+      "title": "Joint Prediction of Meningioma Grade and Brain Invasion via Task-Aware Contrastive Learning",
+      "authors": "Tianling Liu, Wennan Liu, Lequan Yu, Liang Wan, Tong Han, Lei Zhu",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022.",
+      "code": "https://github.com/IsDling/predictTCL"
+    },
+    {
+      "title": "Panoramic Human Activity Recognition",
+      "authors": "Ruize Han, Haomin Yan, Jiacheng Li, Songmiao Wang, Wei Feng, Song Wang",
+      "venue": "European Conference on Computer Vision (ECCV), 2022.",
+      "code": "https://github.com/RuizeHan/PAR"
+    },
+    {
+      "title": "Temporal Lift Pooling for Continuous Sign Language Recognition",
+      "authors": "Lianyu Hu, Liqing Gao, Zekang Liu, Wei Feng",
+      "venue": "European Conference on Computer Vision (ECCV), 2022.",
+      "code": "https://github.com/hulianyuyy/Temporal-Lift-Pooling"
+    },
+    {
+      "title": "Self-Supervised Representation Learning for Skeleton-Based Group Activity Recognition",
+      "authors": "Cunling Bian, Wei Feng, Song Wang",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2022"
+    },
+    {
+      "title": "Self-Supervised Human Pose based Multi-Camera Video Synchronization",
+      "authors": "Liqiang Yin, Ruize Han, Wei Feng, Song Wang",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2022"
+    },
+    {
+      "title": "Phase-based Memory Network for Video Dehazing",
+      "authors": "Ye Liu, Liang Wan, Huazhu Fu, Jing Qin, Lei Zhu",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2022"
+    },
+    {
+      "title": "A Numerical DEs Perspective on Unfolded Linearized ADMM Networks for Inverse Problems",
+      "authors": "Weixin An, Yingjie Yue, Yuanyuan Liu, Fanhua Shang, Hongying Liu",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2022"
+    },
+    {
+      "title": "Balanced Gradient Penalty Improves Deep Long-Tailed Learning",
+      "authors": "Dong Wang, Yicheng Liu, Liangji Fang, Fanhua Shang, Yuanyuan Liu, Hongying Liu",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2022"
+    },
+    {
+      "title": "ICBNet: Iterative Context-Boundary Feedback Network for Polyp Segmentation",
+      "authors": "Yefan Xiao, Zhihao Chen, Liang Wan, Lequan Yu, Lei Zhu",
+      "venue": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2022"
+    },
+    {
+      "title": "Laplacian Smoothing Stochastic ADMMs with Differential Privacy Guarantees",
+      "authors": "Yuanyuan Liu, Jiacheng Geng, Fanhua Shang, Weixin An, Hongying Liu, Qi Zhu, Wei Feng",
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS), 2022"
+    },
+    {
+      "title": "Fast and robust active camera relocalization in the wild for fine-grained change detection",
+      "authors": "Qian Zhang, Wei Feng, Yi",
+      "venue": "Bo Shi, Di Lin - Neurocomputing, 2022"
+    },
+    {
+      "title": "Fine-grained scale space learning for single image super-resolution",
+      "authors": "Ye Liu, Liang Wan, Fan Lyu, Wei Feng",
+      "venue": "The Visual Computer (TVC), 2022"
+    },
+    {
+      "title": "DSU-Net: Distraction-Sensitive U-Net for 3D lung tumor segmentation",
+      "authors": "Junting Zhao, Meng Dang, Zhihao Chen, Liang Wan",
+      "venue": "Engineering Applications of Artificial Intelligence (EAAI), 2022"
+    },
+    {
+      "title": "Video Super Resolution Based on Deep Learning: A Comprehensive Survey",
+      "authors": "Hongying Liu, Zhubo Ruan, Peng Zhao, Chao Dong, Fanhua Shang, Yuanyuan Liu, Linlin Yang",
+      "venue": "Artificial Intelligence Review (AIR), 2022"
+    },
+    {
+      "title": "Multi-View Fusion for Sign Language Recognition through Knowledge Transfer Learning",
+      "authors": "Liqing Gao, Lei Zhu, Senhua Xue, Liang Wan, Ping Li, Wei Feng",
+      "venue": "ACM SIGGRAPH International Conference on Virtual-Reality Continuum and its Applications in Industry (VRCAI), 2022"
+    }
+  ],
+  "2021": [
+    {
+      "title": "Accelerated Variance Reduction Stochastic ADMM for Large-Scale Machine Learning",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Hongying Liu, Lin Kong, Licheng Jiao, Zhouchen Lin",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021"
+    },
+    {
+      "title": "Multiple Human Association and Tracking from Egocentric and Complementary Top Views",
+      "authors": "Ruize Han, Wei Feng, Yujun Zhang, Jiewen Zhao, Song Wang",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021.",
+      "code": "https://github.com/RuizeHan/CVMHAT"
+    },
+    {
+      "title": "Structural Knowledge Distillation for Efficient Skeleton-Based Action Recognition",
+      "authors": "Cunling Bian, Wei Feng, Liang Wan, Song Wang",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2021"
+    },
+    {
+      "title": "Exploring the Effects of Blur and Deblurring to Visual Object Tracking",
+      "authors": "Qing Guo, Wei Feng, Ruijun Gao, Yang Liu, Song Wang",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2021"
+    },
+    {
+      "title": "Efficient Gradient Support Pursuit With Less Hard Thresholding for Cardinality-Constrained Learning",
+      "authors": "Fanhua Shang, Bingkun Wei, Hongying Liu, Yuanyuan Liu, Pan Zhou, Maoguo Gong",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2021"
+    },
+    {
+      "title": "Coarse-to-fine: Progressive knowledge transfer-based multitask convolutional neural network for intelligent large-scale fault diagnosis",
+      "authors": "Yu Wang, Ruonan Liu, Di Lin, Dongyue Chen, Ping Li, Qinghua Hu, CL Philip Chen",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2021.",
+      "code": "https://github.com/armstrongwang20/PKT-MCNN"
+    },
+    {
+      "title": "Asynchronous Parallel, Sparse Approximated SVRG for High-Dimensional Machine Learning",
+      "authors": "Fanhua Shang, Hua Huang, Jun Fan, Hongying Liu, Yuanyuan Liu, Jianhui Liu",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021"
+    },
+    {
+      "title": "VR-SGD: A Simple Stochastic Variance Reduction Method for Machine Learning",
+      "authors": "Fanhua Shang, Kaiwen Zhou, Hongying Liu, James Cheng, Ivor Tsang, Lijun Zhang, Dacheng Tao, Licheng Jiao",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021.",
+      "code": "https://github.com/jnhujnhu/VR-SGD"
+    },
+    {
+      "title": "Pasadena: Perceptually aware and stealthy adversarial denoise attack",
+      "authors": "Yupeng Cheng, Qing Guo, Felix Juefei",
+      "venue": "Xu, Wei Feng, Shang-Wei Lin, Weisi Lin, Yang Liu - IEEE Transactions on Multimedia(TMM), 2021"
+    },
+    {
+      "title": "Learned Interpretable Residual Extragradient ISTA for Sparse Coding",
+      "authors": "Lin Kong, Wei Sun, Fanhua Shang, Yuanyuan Liu, Hongying Liu",
+      "venue": "International Conference on Machine Learning (ICML), 2021"
+    },
+    {
+      "title": "Efficientderain: Learning pixel-wise dilation filtering for high-efficiency single-image deraining",
+      "authors": "Qing Guo, Jingyang Sun, Felix Juefei",
+      "venue": "Xu, Lei Ma, Xiaofei Xie, Wei Feng, Yang Liu - AAAI Conference on Artificial Intelligence (AAAI), 2021.",
+      "code": "https://github.com/tsingqguo/efficientderain"
+    },
+    {
+      "title": "Multi-Domain Multi-Task Rehearsal for Lifelong Learning",
+      "authors": "Fan Lyu, Shuai Wang, Wei Feng, Zihan Ye, Fuyuan Hu, Song Wang",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2021"
+    },
+    {
+      "title": "Large motion video super-resolution with dual subnet and multi-stage communicated upsampling",
+      "authors": "Hongying Liu, Peng Zhao, Zhubo Ruan, Fanhua Shang, Yuanyuan Liu",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2021.",
+      "code": "https://github.com/iPrayerr/DSMC-VSR"
+    },
+    {
+      "title": "Learned extragradient ISTA with interpretable residual structures for sparse coding",
+      "authors": "Yangyang Li, Lin Kong, Fanhua Shang, Yuanyuan Liu, Hongying Liu, Zhouchen Lin",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2021"
+    },
+    {
+      "title": "Triple-cooperative Video Shadow Detection",
+      "authors": "Zhihao Chen, Liang Wan, Lei Zhu, Jia Shen, Huazhu Fu, Wennan Liu, Jing Qin",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.",
+      "code": "https://github.com/eraserNut/ViSha"
+    },
+    {
+      "title": "Auto-exposure fusion for single-image shadow removal",
+      "authors": "Lan Fu, Changqing Zhou, Qing Guo, Felix Juefei",
+      "venue": "Xu, Hongkai Yu, Wei Feng, Yang Liu, Song Wang - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.",
+      "code": "https://github.com/tsingqguo/exposure-fusion-shadow-removal"
+    },
+    {
+      "title": "Reciprocal learning for semi-supervised segmentation",
+      "authors": "Xiangyun Zeng, Rian Huang, Yuming Zhong, Dong Sun, Chu Han, Di Lin, Dong Ni, Yi Wang",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2021.",
+      "code": "https://github.com/XYZach/RLSSS"
+    },
+    {
+      "title": "VIL-100: A new dataset and a baseline model for video instance lane detection",
+      "authors": "Yujun Zhang, Lei Zhu, Wei Feng, Huazhu Fu, Mingqian Wang, Qingxia Li, Cheng Li, Song Wang",
+      "venue": "International Conference on Computer Vision (ICCV), 2021.",
+      "code": "https://github.com/yujun0-0/MMA-Net"
+    },
+    {
+      "title": "From Synthetic to Real: Image Dehazing Collaborating with Unlabeled Real Data",
+      "authors": "Ye Liu, Lei Zhu, Shunda Pei, Huazhu Fu, Jing Qin, Qing Zhang, Liang Wan, Wei Feng",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2021.",
+      "code": "https://github.com/liuye123321/DMT-Net"
+    },
+    {
+      "title": "Self-supervised multi-view multi-human association and tracking",
+      "authors": "Yiyang Gan, Ruize Han, Liqiang Yin, Wei Feng, Song Wang",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2021.",
+      "code": "https://github.com/realgump/MvMHAT"
+    },
+    {
+      "title": "Progressive Semantic Matching for Video-Text Retrieval",
+      "authors": "Hongying Liu, Ruyi Luo, Fanhua Shang, Mantang Niu, Yuanyuan Liu",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2021"
+    },
+    {
+      "title": "Behavior Mimics Distribution: Combining Individual and Group Behaviors for Federated Learning",
+      "authors": "Hua Huang, Fanhua Shang, Yuanyuan Liu, Hongying Liu",
+      "venue": "International Joint Conference on Artificial Intelligence (IJCAI), 2021"
+    },
+    {
+      "title": "RNN-transducer based Chinese sign language recognition",
+      "authors": "Liqing Gao, Haibo Li, Zhijian Liu, Zekang Liu, Liang Wan, Wei Feng",
+      "venue": "Neurocomputing, 2021"
+    },
+    {
+      "title": "Residual error based knowledge distillation",
+      "authors": "Mengya Gao, Yujun Wang, Liang Wan",
+      "venue": "Neurocomputing, 2021"
+    },
+    {
+      "title": "A novel recommendation scheme with multifactorial weighted matrix decomposition strategies via forgetting rule",
+      "authors": "Jianrui Chen, Yanqing Lu, Fanhua Shang, Tingting Zhu",
+      "venue": "Engineering Applications of Artificial Intelligence (EAAI), 2021"
+    },
+    {
+      "title": "Loopless Variance Reduced Stochastic ADMM forEquality Constrained Problems in IoT Applications",
+      "authors": "Yuanyuan Liu, Jiacheng Geng, Fanhua Shang, Hongying Liu, Qi Zhu",
+      "venue": "IEEE Internet of Things Journal (IOT), 2021"
+    },
+    {
+      "title": "Dual space latent representation learning for unsupervised feature selection",
+      "authors": "Ronghua Shang, Lujuan Wang, Fanhua Shang, Licheng Jiao, Yangyang Li",
+      "venue": "Pattern Recognition (PR), 2021"
+    },
+    {
+      "title": "Differentially Private ADMM Algorithms for Machine Learning",
+      "authors": "Fanhua Shang, Tao Xu, Yuanyuan Liu, Hongying Liu, Longjie Shen, Maoguo Gong",
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS), 2021"
+    },
+    {
+      "title": "DGD-Net: Local descriptor guided keypoint detection network",
+      "authors": "Xiaotao Liu, Chen Meng, Fei",
+      "venue": "Peng Tian, Wei Feng - IEEE International Conference on Multimedia and Expo (ICME), 2021"
+    },
+    {
+      "title": "Multiple human tracking in non-specific coverage with wearable cameras",
+      "authors": "Sibo Wang, Ruize Han, Wei Feng, Song Wang",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2021"
+    },
+    {
+      "title": "A Knowledge-based Deep Heterogeneous Graph Matching Model for Multimodal RecipeQA",
+      "authors": "Yunjie Wu, Sai Zhang, Xiaowang Zhang, Zhiyong Feng, Liang Wan",
+      "venue": "International Semantic Web Conference (ISWC), 2021"
+    },
+    {
+      "title": "Stage-by-stage knowledge distillation",
+      "authors": "Mengya Gao, Liang Wan, Yujun Wang, Jinyan Chen",
+      "venue": "Twelfth International Conference on Graphics and Image Processing (ICGIP), 2020"
+    },
+    {
+      "title": "Multi-label Lung Lesion Segmentation with Graph Convolutional Network",
+      "authors": "Daming Li, Haodong Ma, Liang Wan, Zhiheng Xing",
+      "venue": "International Conference on Signal and Image Processing (ICSIP), 2021"
+    },
+    {
+      "title": "Principal Component Analysis in the Stochastic Differential Privacy Model",
+      "authors": "Fanhua Shang, Zhihui Zhang, Tao Xu, Yuanyuan Liu, Hongying Liu",
+      "venue": "Conference on Uncertainty in Artificial Intelligence (UAI), 2021"
+    },
+    {
+      "title": "Edge-aware pyramidal deformable network for unsupervised registration of brain MR images",
+      "authors": "Yiqin Cao, Zhenyu Zhu, Yi Rao, Chenchen Qin, Di Lin, Qi Dou, Dong Ni, Yi Wang",
+      "venue": "Frontiers in Neuroscience, 2021"
+    },
+    {
+      "title": "A fuzzy matrix factor recommendation method with forgetting function and user features",
+      "authors": "Jianrui Chen, Yanqing Lu, Fanhua Shang, Yuyang Wang",
+      "venue": "Applied Soft Computing, 2021"
+    },
+    {
+      "title": "Graph Convolutional Neural Networks with Geometric and Discrimination Information",
+      "authors": "Yang Meng, Ronghua Shang, Weitong Zhang, Fanhua Shang, Licheng Jiao, Shuyuan Yang",
+      "venue": "Engineering Applications of Artificial Intelligence (EAAI), 2021"
+    },
+    {
+      "title": "面向预防性保护的文物本体智能原位监测系统",
+      "authors": "冯伟, 张乾, 田飞鹏, 王小伟, 柴勃隆, 孙济洲, 苏伯民",
+      "venue": "中国科学: 信息科学, 2021"
+    }
+  ],
+  "2020": [
+    {
+      "title": "Zig-Zag Network for Semantic Segmentation of RGB-D Images",
+      "authors": "Di Lin, Hui Huang",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020"
+    },
+    {
+      "title": "Fast Learning of Spatially Regularized and Content Aware Correlation filter for Visual Tracking",
+      "authors": "Ruize Han, Wei Feng, Song Wang",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2020"
+    },
+    {
+      "title": "Selective Spatial Regularization by Reinforcement Learned Decision Making for Object Tracking",
+      "authors": "Qing Guo, Ruize Han, Wei Feng, Zhihao Chen, Liang Wan",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2020"
+    },
+    {
+      "title": "Learning guided convolutional network for depth completion",
+      "authors": "Jie Tang, Fei",
+      "venue": "Peng Tian, Wei Feng, Jian Li, Ping Tan - IEEE Transactions on Image Processing (TIP), 2020.",
+      "code": "https://github.com/kakaxi314/GuideNet"
+    },
+    {
+      "title": "Sparse Manifold Regularized Neural Networksfor Polarimetric SAR Terrain Classification",
+      "authors": "Hongying Liu, Fanhua Shang, Shuyuan Yang, Maoguo Gong, Tianwen Zhu, Licheng Jiao",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2020"
+    },
+    {
+      "title": "Deep LSAC for Fine-Grained Recognition",
+      "authors": "Di Lin, Yi Wang, Lingyu Liang, Ping Li, C. L. Philip Chen",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2020"
+    },
+    {
+      "title": "Global Convergence Guarantees of (A)GIST for a Family of Noncovex Sparse Learning Problems",
+      "authors": "Hengmin Zhang, Feng Qian, Fanhua Shang, Wenli Du, Jianjun Qian, Jian Yang",
+      "venue": "IEEE Transactions on Cybernetics (TCYB), 2020"
+    },
+    {
+      "title": "VR-SGD: A Simple Stochastic Variance Reduction Method for Machine Learning",
+      "authors": "Fanhua Shang, Kaiwen Zhou, Hongying Liu, James Cheng, Ivor W Tsang, Lijun Zhang, Dacheng Tao, Licheng Jiao",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2020"
+    },
+    {
+      "title": "Watch out! motion is blurring the vision of your deep neural networks",
+      "authors": "Qing Guo, Felix Juefei",
+      "venue": "Xu, Xiaofei Xie, Lei Ma, Jian Wang, Bing Yu, Wei Feng, Yang Liu - Conference on Neural Information Processing Systems (NeurIPS), 2020.",
+      "code": "https://github.com/tsingqguo/ABBA"
+    },
+    {
+      "title": "RANet: Region Attention Network for Semantic Segmentation",
+      "authors": "Dingguo Shen, Yuanfeng Ji, Ping Li, Yi Wang, Di Lin",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2020.",
+      "code": "https://github.com/dingguo1996/RANet"
+    },
+    {
+      "title": "Complementary-View Multiple Human Tracking",
+      "authors": "Ruize Han, Wei Feng, Jiewen Zhao, Zicheng Niu, Yujun Zhang, Liang Wan, Song Wang",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2020.",
+      "code": "https://github.com/RuizeHan/CVMHT"
+    },
+    {
+      "title": "Deep Residual-Dense Lattice Network for Speech Enhancement",
+      "authors": "Mohammad Nikzad, Aaron Nicolson, Yongsheng Gao, Jun Zhou, Kuldip Paliwal, Fanhua Shang",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2020"
+    },
+    {
+      "title": "A multi-task mean teacher for semi-supervised shadow detection",
+      "authors": "Zhihao Chen, Lei Zhu, Liang Wan, Song Wang, Wei Feng, Pheng",
+      "venue": "Ann Heng - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.",
+      "code": "https://github.com/eraserNut/MTMT"
+    },
+    {
+      "title": "SPARK: Spatial-aware online incremental attack against visual tracking",
+      "authors": "Qing Guo, Xiaofei Xie, Felix Juefei",
+      "venue": "Xu, Lei Ma, Zhongguo Li, Wanli Xue, Wei Feng, Yang Liu - European Conference on Computer Vision (ECCV), 2020.",
+      "code": "https://github.com/tsingqguo/AttackTracker"
+    },
+    {
+      "title": "Deeprhythm: Exposing deepfakes with attentional visual heartbeat rhythms",
+      "authors": "Hua Qi, Qing Guo, Felix Juefei",
+      "venue": "Xu, Xiaofei Xie, Lei Ma, Wei Feng, Yang Liu, Jianjun Zhao - ACM International Conference on Multimedia (ACM MM), 2020"
+    },
+    {
+      "title": "Complementary-view co-interest person detection",
+      "authors": "Ruize Han, Jiewen Zhao, Wei Feng, Yiyang Gan, Liang Wan, Song Wang",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2020.",
+      "code": "https://github.com/RuizeHan/CIP"
+    },
+    {
+      "title": "Human identification and interaction detection in cross-view multi-person videos with wearable cameras",
+      "authors": "Jiewen Zhao, Ruize Han, Yiyang Gan, Liang Wan, Wei Feng, Song Wang",
+      "venue": "ACM International Conference on Multimedia (ACM MM), 2020.",
+      "code": "https://github.com/RuizeHan/CVID"
+    },
+    {
+      "title": "Exemplar-based image saliency and co-saliency detection",
+      "authors": "Rui Huang, Wei Feng, Zezheng Wang, Yan Xing, Yaobin Zou",
+      "venue": "Neurocomputing, 2020"
+    },
+    {
+      "title": "Learning multi-path CNN for mural deterioration detection",
+      "authors": "Rui Huang, Wei Feng, Mingyuan Fan, Qing Guo, Jizhou Sun",
+      "venue": "Journal of Ambient Intelligence and Humanized Computing, (JAIHC) 2020"
+    },
+    {
+      "title": "vtGraphNet: Learning Weakly-Supervised Scene Graph for Complex Visual Grounding",
+      "authors": "Fan Lyu, Wei Feng, Song Wang",
+      "venue": "Neurocomputing, 2020"
+    },
+    {
+      "title": "Sparse and low-redundant subspace learning-based dual-graph regularized robust feature selection",
+      "authors": "Ronghua Shang, Kaiming Xu, Fanhua Shang, Licheng Jiao",
+      "venue": "Knowledge-Based Systems (KBS), 2020"
+    },
+    {
+      "title": "3D Inception Unet with asymmetric loss for cancer detection in automated breast ultrasound",
+      "authors": "Yi Wang, Chenchen Qin, Chuanlu Lin, Di Lin, Min Xu, Xiao Luo, Tianfu Wang, Anhua Li, Dong Ni",
+      "venue": "Medical Physics, 2020"
+    },
+    {
+      "title": "Joint Affine and Deformable 3D Networks for Brain MRI Registration",
+      "authors": "Zhenyu Zhu, Yiqin Cao, Chenchen Qin, Yi Rao, Lin Di, Qi Dou, Dong Ni, Yi Wang",
+      "venue": "Medical Physics, 2020"
+    },
+    {
+      "title": "Key action and joint CTC-attention based sign language recognition",
+      "authors": "Haibo Li, Liqing Gao, Ruize Han, Liang Wan, Wei Feng",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2020"
+    },
+    {
+      "title": "Modeling cross-view interaction consistency for paired egocentric interaction recognition",
+      "authors": "Zhongguo Li, Fan Lyu, Wei Feng, Song Wang",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2020"
+    },
+    {
+      "title": "MUTATT: Visual-textual mutual guidance for referring expression comprehension",
+      "authors": "Shuai Wang, Fan Lyu, Wei Feng, Song Wang",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2020"
+    }
+  ],
+  "2019": [
+    {
+      "title": "Active Camera Relocalization from a Single Reference Image without Hand-Eye Calibration",
+      "authors": "Fei",
+      "venue": "Peng Tian, Wei Feng, Qian Zhang, Xiaowei Wang, Jizhou Sun, Vincenzo Loia, Zhi-Qiang Liu - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019"
+    },
+    {
+      "title": "Dynamic Saliency-Aware Regularization for Correlation Filter based Object Tracking",
+      "authors": "Wei Feng, Ruize Han, Qing Guo, Jianke Zhu, Song Wang",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2019.",
+      "code": "https://github.com/RuizeHan/DSAR-CF"
+    },
+    {
+      "title": "Semi-supervised Graph Regularized Deep Non-negative Matrix Factorization with Bi-orthogonal Constraints for Data Representation",
+      "authors": "Yang Meng, Ronghua Shang, Fanhua Shang, Licheng Jiao, Shuyuan Yang, Rustam Stolkin",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2019"
+    },
+    {
+      "title": "Sparse Manifold Regularized Neural Networks for Polarimetric SAR Terrain Classification",
+      "authors": "Hongying Liu, Fanhua Shang, Shuyuan Yang, Maoguo Gong, Tianwen Zhu, Licheng Jiao",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2019"
+    },
+    {
+      "title": "SAGNet: Structure-aware Generative Network for 3D-Shape Modeling",
+      "authors": "Zhijie Wu, Xiang Wang, Di Lin, Dani Lischinski, Daniel Cohen",
+      "venue": "Or, Hui Huang - ACM Transactions on Graphics (TOG), 2019.",
+      "code": "https://github.com/zhijieW94/SAGNet"
+    },
+    {
+      "title": "Multi-Precision Quantized Neural Networks via Encoding Decomposition of {-1,+1}",
+      "authors": "Qigong Sun, Fanhua Shang*, Kang Yang, Xiufang Li, Yan Ren, Licheng Jiao",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2019"
+    },
+    {
+      "title": "ZigZagNet: Fusing Top-Down and Bottom-Up Context for Object Segmentation",
+      "authors": "Di Lin, Dingguo Shen, Siting Shen, Yuanfeng Ji, Dani Lischinski, Daniel Cohen",
+      "venue": "Or, Hui Huang - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019"
+    },
+    {
+      "title": "PRSNet: Part Relation and Selection Network for Bone Age Assessment",
+      "authors": "Yuanfeng Ji, Hao Chen, Dan Lin, Xiaohua Wu, Di Lin",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2019"
+    },
+    {
+      "title": "Accelerated Incremental Gradient Descent using Momentum Acceleration with Scaling Factor",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Licheng Jiao",
+      "venue": "International Joint Conference on Artificial Intelligence (IJCAI), 2019"
+    },
+    {
+      "title": "Fast and object-adaptive spatial regularization for correlation filters based tracking",
+      "authors": "Pengyu Zhang, Qing Guo, Wei Feng",
+      "venue": "Neurocomputing, 2019"
+    },
+    {
+      "title": "Story Co-Segmentation of Chinese Broadcast News Using Weakly-Supervised Semantic Similarity",
+      "authors": "Wei Feng, Xuecheng Nie, Yujun Zhang, Zhi",
+      "venue": "Qiang Liu, Jianwu Dang - Neurocomputing, 2019"
+    },
+    {
+      "title": "Learning to grade deterioration for ancient murals",
+      "authors": "Kun Qian, Pengyu Zhang, Rui Huang, Wei Feng, Jizhou Sun",
+      "venue": "Journal of Ambient Intelligence and Humanized Computing, (JAIHC) 2019"
+    },
+    {
+      "title": "Sparse and Low-redundant Subspace Learning-based Dual-graph Regularized Robust Feature Selection",
+      "authors": "Ronghua Shang, Kaiming Xu, Fanhua Shang, and Licheng Jiao",
+      "venue": "Knowledge-Based Systems (KBS), 2019"
+    },
+    {
+      "title": "Local Discriminative Based Sparse Subspace Learning for Feature Selection",
+      "authors": "Ronghua Shang, Yang Meng, Wenbing Wang, Fanhua Shang, and LichengJiao",
+      "venue": "Pattern Recognition (PR), 2019"
+    },
+    {
+      "title": "Learned Map Prediction for Enhanced Mobile Robot Exploration",
+      "authors": "Rakesh Shrestha, Fei",
+      "venue": "Peng Tian, Wei Feng, Ping Tan, Richard Vaughan - International Conference on Robotics and Automation (ICRA), 2019"
+    },
+    {
+      "title": "A Unified Approximation Framework for Compressing and Accelerating Deep Neural Networks",
+      "authors": "Yuzhe Ma, Ran Chen, Wei Li, Fanhua Shang, Wenjian Yu, Minsik Cho, Bei Yu",
+      "venue": "IEEE International Conference on Tools with Artificial Intelligence (ICTAI), 2019"
+    },
+    {
+      "title": "A Novel Deep Framework for Change Detection of Multi-source Heterogeneous Images",
+      "authors": "Hongying Liu, Zhongshu Wang, Fanhua Shang, Mingyang Zhang, Maoguo Gong, Feihang Ge, Licheng Jiao",
+      "venue": "International Conference on Data Mining Workshops (ICDMW), 2019"
+    },
+    {
+      "title": "Efficient Semi-Stochastic Gradient Support Pursuit for Sparsity-Constrained Non-convex Optimization",
+      "authors": "Fanhua Shang, BingkunWei, Hongying Liu, Yuanyuan Liu, Jiacheng Zhuo",
+      "venue": "International Joint Conference on Artificial Intelligence Workshops(IJCAIW), 2019"
+    },
+    {
+      "title": "Direct Acceleration of SAGA using Sampled Negative Momentum",
+      "authors": "Kaiwen Zhou, Qinghua Ding, Fanhua Shang, James Cheng, Danli Li, Zhiquan Luo",
+      "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS), 2019"
+    }
+  ],
+  "2018": [
+    {
+      "title": "Bilinear Factor Matrix Norm Minimization for Robust PCA: Algorithms and Applications",
+      "authors": "Fanhua Shang, James Cheng, Yuanyuan Liu, Zhi",
+      "venue": "Quan Luo, and Zhouchen Lin - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018"
+    },
+    {
+      "title": "ASVRG: Accelerated Proximal SVRG",
+      "authors": "Fanhua Shang, Licheng Jiao, Kaiwen Zhou, James Cheng, Yan Ren, Yufei Jin",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018"
+    },
+    {
+      "title": "SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images",
+      "authors": "Di Lin, Ruimao Zhang, Yuanfeng Ji, Ping Li, Hui Huang",
+      "venue": "IEEE Transactions on Cybernetics (TCYB), 2018"
+    },
+    {
+      "title": "LRR for Subspace Segmentation via Tractable Schatten-p Norm Minimization and Factorization",
+      "authors": "Hengmin Zhang, Jian Yang, Fanhua Shang, Chen Gong, and Zhenyu Zhang",
+      "venue": "IEEE Transactions on Cybernetics (TCYB), 2018"
+    },
+    {
+      "title": "Semantic Object Reconstruction via Casual Handheld Scanning",
+      "authors": "Ruizhen Hu, Cheng Wen, Oliver van Kaick, Luanmin Chen, Di Lin, Daniel Cohen",
+      "venue": "Or, Hui Huang - ACM Transactions on Graphics (TOG), 2018.",
+      "code": "https://github.com/wenc13/Semantic-Object-Reconstruction"
+    },
+    {
+      "title": "VR-SGD: A Simple Stochastic Variance Reduction Method for Machine Learning",
+      "authors": "Fanhua Shang, Kaiwen Zhou, Hongying Liu, James Cheng, Ivor W. Tsang, Lijun Zhang, Dacheng Tao, Licheng Jiao",
+      "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2018"
+    },
+    {
+      "title": "A Simple Stochastic Variance Reduced Algorithm with Fast Convergence Rates:",
+      "authors": "Kaiwen Zhou, Fanhua Shang*, James Cheng",
+      "venue": "International Conference on Machine Learning (ICML), 2018"
+    },
+    {
+      "title": "Co-saliency detection within a single image",
+      "authors": "Hongkai Yu, Kang Zheng, Jianwu Fang, Hao Guo, Wei Feng, Song Wang",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2018"
+    },
+    {
+      "title": "Multi-Scale Context Intertwining for Semantic Segmentation",
+      "authors": "Di Lin, Yuanfeng Ji, Dani Lischinski, Daniel Cohen",
+      "venue": "Or, Hui Huang. - European Conference on Computer Vision (ECCV), 2018"
+    },
+    {
+      "title": "Active Recurrence of Lighting Condition for Fine-Grained Change Detection",
+      "authors": "Qian Zhang, Wei Feng, Liang Wan, Fei",
+      "venue": "Peng Tian, Ping Tan - International Joint Conference on Artificial Intelligence (IJCAI), 2018"
+    },
+    {
+      "title": "Multiscale Blur Detection by Learning Discriminative Deep Features",
+      "authors": "Rui Huang, Wei Feng, Mingyuan Fan, Liang Wan, Jizhou Sun",
+      "venue": "Neurocomputing, 2018"
+    },
+    {
+      "title": "Frequency-tuned active contour model",
+      "authors": "Qing Guo, Shuifa Sun, Xuhong Ren, Fangmin Dong, Bruce Zhi Gao, Wei Feng",
+      "venue": "Neurocomputing, 2018"
+    },
+    {
+      "title": "Unsupervised Measure of Chinese Lexical Semantic Similarity Using Correlated Graph Model for News Story Segmentation",
+      "authors": "Wei Feng, Xuecheng Nie, Yujun Zhang, Lei Xie, Jianwu Dang",
+      "venue": "Neurocomputing, 2018"
+    },
+    {
+      "title": "Multiple human tracking in wearable camera videos with informationless intervals",
+      "authors": "Hongkai Yu, Haozhou Yu, Hao Guo, Jeff Simmons, Qin Zou, Wei Feng, Song Wang",
+      "venue": "Pattern Recognition Letters (PRL), 2018"
+    },
+    {
+      "title": "Fuzzy Double Trace Norm Minimization for Recommendation Systems",
+      "authors": "Fanhua Shang, Yuanyuan Liu, James Cheng, and Da Yan",
+      "venue": "IEEE Transactions on Fuzzy Systems (TFS), 2018"
+    },
+    {
+      "title": "Active Camera Relocalization with RGBD Camera from a Single 2D Image",
+      "authors": "Dongxu Miao, Fei",
+      "venue": "Peng Tian, Wei Feng - International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2018"
+    },
+    {
+      "title": "Dynamic Hybrid Approaching for Robust Hand-Eye Calibration",
+      "authors": "Chen Meng, Wei Feng, Jinchang Ren",
+      "venue": "International Conference on Brain Inspired Cognitive Systems (BICS), 2018"
+    },
+    {
+      "title": "Self-Validated Story Segmentation of Chinese Broadcast News",
+      "authors": "Wei Feng, Lei Xie, Jin Zhang, Yujun Zhang, Yanning Zhang",
+      "venue": "International Conference on Brain Inspired Cognitive Systems (BICS), 2018"
+    },
+    {
+      "title": "Fast and reliable computational rephotography on mobile device",
+      "authors": "Yibo Shi, Fei",
+      "venue": "Peng Tian, Dongxu Miao, Wei Feng - IEEE International Conference on Multimedia and Expo (ICME), 2018"
+    },
+    {
+      "title": "Content-Related Spatial Regularization for Visual Object Tracking",
+      "authors": "Ruize Han, Qing Guo, Wei Feng",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME Oral, Best paper), 2018.",
+      "code": "https://github.com/RuizeHan/CRSRCF"
+    },
+    {
+      "title": "Background-Suppressed Correlation Filters for Visual Tracking",
+      "authors": "Zhihao Chen, Qing Guo, Liang Wan, Wei Feng",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2018"
+    },
+    {
+      "title": "Soft clustering guided image smoothing",
+      "authors": "Liang Li, Xiaojie Guo, Wei Feng, Jiawan Zhang",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2018"
+    },
+    {
+      "title": "High-Resolution Depth Refinement by Photometric and Multi-Shading Constraints",
+      "authors": "Yujun Zhang, Qian Zhang, Wei Feng",
+      "venue": "Pacific Rim International Conference on Artificial Intelligence (PRICAI), 2018"
+    },
+    {
+      "title": "Fast Spatially-Regularized Correlation Filters for Visual Object Tracking",
+      "authors": "Pengyu Zhang, Qing Guo, Wei Feng",
+      "venue": "Pacific Rim International Conference on Artificial Intelligence (PRICAI), 2018"
+    },
+    {
+      "title": "Spherical superpixels: Benchmark and evaluation",
+      "authors": "Liang Wan, Xiaorui Xu, Qiang Zhao, Wei Feng",
+      "venue": "Asian Conference on Computer Vision (ACCV), 2018.",
+      "code": "https://github.com/tdsuper/SphericalSuperpixels"
+    },
+    {
+      "title": "Guaranteed Sufficient Decrease for Stochastic Variance Reduced Gradient Optimization",
+      "authors": "Fanhua Shang, Yuanyuan Liu, Kaiwen Zhou, James Cheng, Kelvin Kai Wing Ng, Yuichi Yoshida",
+      "venue": "International Conference on Artificial Intelligence and Statistics (AISTAT), 2018"
+    }
+  ],
+  "2017 and Earlier": [
+    {
+      "title": "Two-Class Weather Classification",
+      "authors": "Cewu Lu, Di Lin (Corresponding Author), Jiaya Jia, Chi",
+      "venue": "Keung Tang. - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2017"
+    },
+    {
+      "title": "Structure-Regularized Compressive Tracking with Online Data-Driven Sampling",
+      "authors": "Qing Guo, Wei Feng, Ce Zhou, Chi",
+      "venue": "Man Pun, Bin Wu - IEEE Transactions on Image Processing (TIP), 2017"
+    },
+    {
+      "title": "RSCM: Region Selection and Concurrency Model for Multi-class Weather Recognition",
+      "authors": "Di Lin, Cewu Lu, Hui Huang, Jiaya Jia",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2017"
+    },
+    {
+      "title": "Spherical superpixel segmentation",
+      "authors": "Qiang Zhao, Feng Dai, Yike Ma, Liang Wan, Jiawan Zhang, Yongdong Zhang",
+      "venue": "IEEE Transactions on Multimedia(TMM), 2017"
+    },
+    {
+      "title": "Accelerated first-order methods for geodesically convex optimization on Riemannian manifolds",
+      "authors": "Yuanyuan Liu, Fanhua Shang*, James Cheng, Hong Cheng, Licheng Jiao",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2017"
+    },
+    {
+      "title": "Learning to Aggregate Ordinal Labels by Maximizing Separating Width",
+      "authors": "Guangyong Chen, Shengyu Zhang, Di Lin, Hui Huang, Pheng",
+      "venue": "Ann Heng. - International Conference on Machine Learning (ICML), 2017"
+    },
+    {
+      "title": "Accelerated variance reduced stochastic ADMM",
+      "authors": "Yuanyuan Liu, Fanhua Shang, James Cheng",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2017"
+    },
+    {
+      "title": "Learning Dynamic Siamese Network for Visual Object Tracking",
+      "authors": "Qing Guo, Wei Feng, Ce Zhou, Rui Huang, Liang Wan, Song Wang",
+      "venue": "International Conference on Computer Vision (ICCV), 2017.",
+      "code": "https://github.com/tsingqguo/DSiam"
+    },
+    {
+      "title": "Cascaded Feature Network for Semantic Segmentation of RGB-D Images",
+      "authors": "Di Lin, Guangyong Chen, Daniel Cohen",
+      "venue": "Or, Pheng-Ann Heng, Hui Huang. - International Conference on Computer Vision (ICCV), 2017"
+    },
+    {
+      "title": "LFTF: A Framework for Efficient Tensor Analytics at Scale",
+      "authors": "Fan Yang, Fanhua Shang, Yuzhen Huang, James Cheng, Jinfeng Li, Yunjian Zhao, and Ruihao Zhao",
+      "venue": "International Conference on Very Large Data Bases (VLDB), 2017"
+    },
+    {
+      "title": "Packing Vertex Data into Hardware-Decompressible Textures",
+      "authors": "Kin Chung Kwan, Xuemiao Xu, Liang Wan, Tien",
+      "venue": "Tsin Wong, Wai-Man Pang - IEEE Transactions on Visualization and Computer Graphics (TVCG), 2017"
+    },
+    {
+      "title": "Color feature reinforcement for co-saliency detection without single saliency residuals",
+      "authors": "Rui Huang, Wei Feng, Jizhou Sun",
+      "venue": "IEEE Signal Processing Letters (SPL), 2017"
+    },
+    {
+      "title": "Automatically unrolling decorations painted on 3D pottery",
+      "authors": "Ye Liu, Bo Zhang, Liang Wan",
+      "venue": "Computer Graphics International (CGI), 2017"
+    },
+    {
+      "title": "Learning to detect fine-grained change under variant imaging conditions",
+      "authors": "Rui Huang, Wei Feng, Zezheng Wang, Mingyuan Fan, Liang Wan, Jizhou Sun",
+      "venue": "International Conference on Computer Vision Workshop(ICCVW), 2017"
+    },
+    {
+      "title": "Exemplar based image salient object detection",
+      "authors": "Zezheng Wang, Rui Huang, Liang Wan, Wei Feng",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2017"
+    },
+    {
+      "title": "Selective object and context tracking",
+      "authors": "Ce Zhou, Qing Guo, Liang Wan, Wei Feng",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2017"
+    },
+    {
+      "title": "Frequency-tuned ACM for biomedical image segmentation",
+      "authors": "Qing Guo, Shuifa Sun, Fangmin Dong, Wei Feng, Bruce Gao, Siyu Ma",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2017"
+    },
+    {
+      "title": "Near-surface lighting estimation and reconstruction",
+      "authors": "Qian Zhang, Fei",
+      "venue": "Peng Tian, Ruize Han, Wei Feng - IEEE International Conference on Multimedia and Expo (ICME), 2017"
+    },
+    {
+      "title": "Image blur classification and blur usefulness assessment",
+      "authors": "Mingyuan Fan, Rui Huang, Wei Feng, Jizhou Sun",
+      "venue": "IEEE International Conference on Multimedia and Expo Workshops (ICMEW), 2017"
+    },
+    {
+      "title": "Scalable Algorithms for Tractable Schatten Quasi-Norm Minimization",
+      "authors": "Fanhua Shang, Yuanyuan Liu, and James Cheng",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2016"
+    },
+    {
+      "title": "6D Dynamic Camera Relocalization from Single Reference Image",
+      "authors": "Wei Feng, Fei",
+      "venue": "Peng Tian, Qian Zhang, Jizhou Sun - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
+    },
+    {
+      "title": "ScribbleSup: Scribble-Supervised Convolutional Networks for Semantic Segmentation",
+      "authors": "Di Lin, Jifeng Dai, Jiaya Jia, Kaiming He, Jian Sun",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
+    },
+    {
+      "title": "Superpixel Segmentation for Spherical Images",
+      "authors": "Q Zhao, F Dai, Y Ma, L Wan, J Zhang, Y Zhang",
+      "venue": "MMTC Communications-Review, 2016"
+    },
+    {
+      "title": "Structure-regularized compressive tracking",
+      "authors": "Qing Guo, Wei Feng, Ce Zhou, Bin Wu",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2016"
+    },
+    {
+      "title": "Photometric ambient occlusion from sparsely sampled illuminations",
+      "authors": "Yuwei Ma, Yafei Shang, Liang Wan, Wei Feng",
+      "venue": "IEEE International Conference on Multimedia and Expo Workshop (ICMEW), 2016"
+    },
+    {
+      "title": "Tractable and Scalable Schatten Quasi-Norm Approximations for Rank Minimization",
+      "authors": "Fanhua Shang, Yuanyuan Liu, and James Cheng",
+      "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS), 2016"
+    },
+    {
+      "title": "SPHORB: A fast and robust binary feature on the sphere",
+      "authors": "Qiang Zhao, Wei Feng, Liang Wan, Jiawan Zhang",
+      "venue": "International Journal of Computer Vision (IJCV), 2015.",
+      "code": "https://github.com/tdsuper/SPHORB"
+    },
+    {
+      "title": "Trace Norm Regularized CANDECOMP/PARAFAC Decomposition with Missing Data",
+      "authors": "Yuanyuan Liu, Fanhua Shang*, Licheng Jiao, James Cheng, and Hong Cheng",
+      "venue": "IEEE Transactions on Cybernetics (TCYB), 2015"
+    },
+    {
+      "title": "Generalized Higher-Order Orthogonal Iteration for Tensor Learning and Decomposition",
+      "authors": "Yuanyuan Liu, Fanhua Shang*, Wei Fan, James Cheng, and Hong Cheng",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2015"
+    },
+    {
+      "title": "Deep LAC: Deep Localization, Alignment and Classification for Fine-grained Recognition",
+      "authors": "Di Lin, Xiaoyong Shen, Cewu Lu, Jiaya Jia",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2015"
+    },
+    {
+      "title": "Fine-Grained Change Detection of Misaligned Scenes with Varied Illuminations",
+      "authors": "Wei Feng, Fei",
+      "venue": "Peng Tian, Qian Zhang, Nan Zhang, Liang Wan, Jizhou Sun - International Conference on Computer Vision (ICCV), 2015"
+    },
+    {
+      "title": "NestDE: Generic parameters tuning for automatic story segmentation",
+      "authors": "Wei Feng, Xuefei Yin, Yifeng Zhang, Lei Xie",
+      "venue": "Soft Computing, 2015"
+    },
+    {
+      "title": "Topic segmentation on spoken documents using self-validated acoustic cuts",
+      "authors": "Hongjie Chen, Lei Xie, Wei Feng, Lilei Zheng, Yanning Zhang",
+      "venue": "Soft Computing, 2015"
+    },
+    {
+      "title": "Layered modeling and generation of Pollock's drip style",
+      "authors": "Yan Zheng, Xuecheng Nie, Zhaopeng Meng, Wei Feng, Kang Zhang",
+      "venue": "The Visual Computer (TVC), 2015"
+    },
+    {
+      "title": "OptimizationBased Gradient Mesh Colour Transfer",
+      "authors": "Yi Xiao, Liang Wan, Chi Sing Leung, YuKun Lai, TienTsin Wong",
+      "venue": "Computer Graphics Forum (CGF), 2015"
+    },
+    {
+      "title": "Robust Bilinear Factorization with Missing and Grossly Corrupted Observations",
+      "authors": "Fanhua Shang, Yuanyuan Liu, Hanghang Tong, James Cheng, and Hong Cheng",
+      "venue": "Information Sciences, 2015"
+    },
+    {
+      "title": "Saliency and Co-Saliency Detection by Low-Rank Multiscale Fusion",
+      "authors": "Rui Huang, Wei Feng, Jizhou Sun",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2015"
+    },
+    {
+      "title": "Self-adaptively weighted co-saliency detection via rank constraint",
+      "authors": "Xiaochun Cao, Zhiqiang Tao, Bao Zhang, Huazhu Fu, Wei Feng",
+      "venue": "IEEE Transactions on Image Processing (TIP), 2014.",
+      "code": "https://github.com/HzFu/SACS_TIP2014"
+    },
+    {
+      "title": "Cube2Video: Navigate between cubic panoramas in real-time",
+      "authors": "Qiang Zhao, Liang Wan, Wei Feng, Jiawan Zhang, Tien",
+      "venue": "Tsin Wong - IEEE Transactions on Multimedia(TMM), 2014.",
+      "code": "https://github.com/tdsuper/Cube2Video"
+    },
+    {
+      "title": "Generalized higher-order orthogonal iteration for tensor decomposition and completion",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Wei Fan, James Cheng, Hong Cheng",
+      "venue": "Conference on Neural Information Processing Systems (NeurIPS), 2014"
+    },
+    {
+      "title": "Generalized Higher-Order Tensor Decomposition via Parallel ADMM",
+      "authors": "Fanhua Shang, Yuanyuan Liu, James Cheng",
+      "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2014"
+    },
+    {
+      "title": "Learning important spatial pooling regions for scene classification",
+      "authors": "Di Lin, Cewu Lu, Renjie Liao, Jiaya Jia",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2014"
+    },
+    {
+      "title": "Two-class weather classification",
+      "authors": "Cewu Lu, Di Lin, Jiaya Jia, Chi",
+      "venue": "Keung Tang - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2014"
+    },
+    {
+      "title": "Spiral symmetry centroid detection",
+      "authors": "Jiandong Wang, Wei Feng, Jizhou Sun",
+      "venue": "Electronics Letters, 2014"
+    },
+    {
+      "title": "Double linear regressions for single labeled image per person face recognition",
+      "authors": "Fei Yin, LC Jiao, Fanhua Shang, Lin Xiong, Shasha Mao",
+      "venue": "Pattern Recognition (PR), 2014"
+    },
+    {
+      "title": "Maximum margin multiple-instance feature weighting",
+      "authors": "Jing Chai, Hongtao Chen, Lixia Huang, Fanhua Shang",
+      "venue": "Pattern Recognition (PR), 2014"
+    },
+    {
+      "title": "Feature selection based saliency object detection",
+      "authors": "Rui Huang, Wei Feng*, and Jizhou Sun",
+      "venue": "IEEE International Conference on Multimedia and Expo Workshop (ICMEW), 2014"
+    },
+    {
+      "title": "Contrast enhancement based single image dehazing via TV-L1 minimization",
+      "authors": "Liang Li, Wei Feng, Jiawan Zhang",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2014"
+    },
+    {
+      "title": "Intrinsic image decomposition by hierarchical L0 sparsity",
+      "authors": "Xuecheng Nie, Wei Feng, Liang Wan, Haipeng Dai, Chi",
+      "venue": "Man Pun - IEEE International Conference on Multimedia and Expo (ICME), 2014"
+    },
+    {
+      "title": "L0 co-intrinsic images decomposition",
+      "authors": "Haipeng Dai, Wei Feng, Liang Wan, Xuecheng Nie",
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2014"
+    },
+    {
+      "title": "Bag of squares: a reliable model of measuring superpixel similarity",
+      "authors": "Shijie Zhang, Wei Feng, Jiawan Zhang, Chi",
+      "venue": "Man Pun - IEEE International Conference on Multimedia and Expo (ICME), 2014"
+    },
+    {
+      "title": "High dynamic environment sequence sampling",
+      "authors": "Ying Yang, Changguo Yu, Liang Wan, Wei Feng",
+      "venue": "ACM SIGGRAPH International Conference on Virtual-Reality Continuum and its Applications in Industry (VRCAI), 2014"
+    },
+    {
+      "title": "Nuclear norm regularized least squares optimization on grassmannian manifolds",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Hong Cheng, James Cheng",
+      "venue": "Conference on Uncertainty in Artificial Intelligence (UAI), 2014"
+    },
+    {
+      "title": "Factor matrix trace norm minimization for low-rank tensor completion",
+      "authors": "Yuanyuan Liu, Fanhua Shang, Hong Cheng, James Cheng, Hanghang Tong",
+      "venue": "SIAM International Conference on Data Mining (SDM), 2014"
+    },
+    {
+      "title": "Recovering low-rank and sparse matrices via robust bilateral factorization",
+      "authors": "Fanhua Shang, Yuanyuan Liu, James Cheng, Hong Cheng",
+      "venue": "IEEE International Conference on Data Mining (ICDM), 2014"
+    },
+    {
+      "title": "Maximum Cohesive Grid of Superpixels for Fast Object Localization",
+      "authors": "Liang Li, Wei Feng, Liang Wan, Jiawan Zhang",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2013"
+    },
+    {
+      "title": "Perceptual Thumbnail Generation",
+      "authors": "Wei Feng, Liang Wan, Zhouchen Lin, Tien",
+      "venue": "Tsin Wong, Zhi-Qiang Liu - Perceptual Digital Imaging Methods and Applications, 2013"
+    },
+    {
+      "title": "A spectral-multiplicity-tolerant approach to robust graph matching",
+      "authors": "Wei Feng, Zhi",
+      "venue": "Qiang Liu, Liang Wan, Chi-Man Pun, Jianmin Jiang - Pattern Recognition (PR), 2013"
+    },
+    {
+      "title": "Concentric Spherical Representation for Omnidirectional Soft Shadow",
+      "authors": "Yi Xiao, Chi Sing Leung, Tze Yui Ho, Liang Wan, Tien Tsing Wong",
+      "venue": "Computer Graphics Forum (CGF), 2013"
+    },
+    {
+      "title": "A fast tri-factorization method for low-rank matrix recovery and completion",
+      "authors": "Yuanyuan Liu, LC Jiao, Fanhua Shang",
+      "venue": "Pattern Recognition (PR), 2013"
+    },
+    {
+      "title": "An efficient matrix factorization based low-rank representation for subspace clustering",
+      "authors": "Yuanyuan Liu, LC Jiao, Fanhua Shang",
+      "venue": "Pattern Recognition (PR), 2013"
+    },
+    {
+      "title": "Semi-supervised learning with nuclear norm regularization",
+      "authors": "Fanhua Shang, LC Jiao, Yuanyuan Liu, Hanghang Tong",
+      "venue": "Pattern Recognition (PR), 2013"
+    },
+    {
+      "title": "An efficient matrix bi-factorization alternative optimization method for low-rank matrix recovery and completion",
+      "authors": "Yuanyuan Liu, LC Jiao, Fanhua Shang, Fei Yin, Fang Liu",
+      "venue": "Neural Networks, 2013"
+    },
+    {
+      "title": "Image co-saliency detection by propagating superpixel affinities",
+      "authors": "Zhiyu Tan, Liang Wan, Wei Feng, Chi",
+      "venue": "Man Pun - International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2013"
+    },
+    {
+      "title": "Measuring semantic similarity by contextual word connections in Chinese news story segmentation",
+      "authors": "Xuecheng Nie, Wei Feng, Liang Wan, Lei Xie",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2013"
+    },
+    {
+      "title": "A tighter lower bound estimate for dynamic time warping",
+      "authors": "Peng Yang, Lei Xie, Qiao Luan, Wei Feng",
+      "venue": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2013"
+    },
+    {
+      "title": "Efficient semisupervised MEDLINE document clustering with MeSH-semantic and global-content constraints",
+      "authors": "Jun Gu, Wei Feng, Jia Zeng, Hiroshi Mamitsuka, Shanfeng Zhu",
+      "venue": "IEEE Transactions on Cybernetics (TCYB), 2012"
+    },
+    {
+      "title": "Example-based color transfer for gradient meshes",
+      "authors": "Yi Xiao, Liang Wan, Chi",
+      "venue": "Sing Leung, Yu-Kun Lai, Tien-Tsin Wong - IEEE Transactions on Multimedia(TMM), 2012"
+    },
+    {
+      "title": "Fast affinity propagation clustering: A multilevel approach",
+      "authors": "Fanhua Shang, LC Jiao, Jiarong Shi, Fei Wang, Maoguo Gong",
+      "venue": "Pattern Recognition (PR), 2012"
+    },
+    {
+      "title": "Graph dual regularization non-negative matrix factorization for co-clustering",
+      "authors": "Fanhua Shang, LC Jiao, Fei Wang",
+      "venue": "Pattern Recognition (PR), 2012"
+    },
+    {
+      "title": "Fast semi-supervised clustering with enhanced spectral embedding",
+      "authors": "LC Jiao, Fanhua Shang, Fei Wang, Yuanyuan Liu",
+      "venue": "Pattern Recognition (PR), 2012"
+    },
+    {
+      "title": "An evidential reasoning based classification algorithm and its application for face recognition with class noise",
+      "authors": "Xiaodong Wang, Fang Liu, LC Jiao, Zhiguo Zhou, Jingjing Yu, Bing Li, Jianrui Chen, Jiao Wu, Fanhua Shang",
+      "venue": "Pattern Recognition (PR), 2012"
+    },
+    {
+      "title": "Lexical story co-segmentation of Chinese broadcast news",
+      "authors": "Wei Feng, Xuecheng Nie, Liang Wan, Lei Xie, Jianmin Jiang",
+      "venue": "InterSpeech, 2012"
+    },
+    {
+      "title": "Scalable image co-segmentation using color and covariance Features",
+      "authors": "Shijie Zhang, Wei Feng, Liang Wan, Jiawan Zhang, Jianmin Jiang",
+      "venue": "International Conference on Pattern Recognition (ICPR), 2012"
+    },
+    {
+      "title": "Semi-supervised learning with mixed knowledge information",
+      "authors": "Fanhua Shang, LC Jiao, Fei Wang",
+      "venue": "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2012"
+    },
+    {
+      "title": "Learning spectral embedding via iterative eigenvalue thresholding",
+      "authors": "Fanhua Shang, LC Jiao, Yuanyuan Liu, Fei Wang",
+      "venue": "ACM International Conference on Information and Knowledge Management (CIKM), 2012"
+    },
+    {
+      "title": "Learning spectral embedding for semi-supervised clustering",
+      "authors": "Fanhua Shang, Yuanyuan Liu, Fei Wang",
+      "venue": "IEEE International Conference on Data Mining (ICDM), 2011"
+    },
+    {
+      "title": "Real-time hand gesture recognition using motion tracking",
+      "authors": "Chi",
+      "venue": "Man Pun, Hong-Min Zhu, Wei Feng - International Journal of Computational Intelligence Systems (IJCIS), 2011"
+    },
+    {
+      "title": "Isocube-based spherical wavelet for image-based relighting",
+      "authors": "Liang Wan, C",
+      "venue": "S Leung, P-M Lam, Shue Kwan Mak, T-T Wong - IET Computer Vision, 2011"
+    },
+    {
+      "title": "Spatiotemporal sampling of dynamic environment sequences",
+      "authors": "Liang Wan, Shue",
+      "venue": "Kwan Mak, Tien-Tsin Wong, Chi-Sing Leung - IEEE Transactions on Visualization and Computer Graphics (TVCG), 2011"
+    },
+    {
+      "title": "Fast density-weighted low-rank approximation spectral clustering",
+      "authors": "Fanhua Shang, LC Jiao, Jiarong Shi, Maoguo Gong, RH Shang",
+      "venue": "Data Mining and Knowledge Discovery, 2011"
+    },
+    {
+      "title": "Video motion estimation with temporal coherence",
+      "authors": "Liang Li, Wei Feng, Jiawan Zhang, Jianmin Jiang",
+      "venue": "ACM SIGGRAPH International Conference on Virtual-Reality Continuum and its Applications in Industry (VRCAI), 2011"
+    },
+    {
+      "title": "Pitch-density-based features and an SVM binary tree approach for multi-class audio classification in broadcast news",
+      "authors": "Lei Xie, Zhong",
+      "venue": "hua Fu, Wei Feng, Yong Luo - ACM/Springer Multimedia Systems Journal (MMSJ), 2011"
+    },
+    {
+      "title": "Self-validated labeling of Markov random fields for image segmentation",
+      "authors": "Wei Feng, Jiaya Jia, Zhi",
+      "venue": "Qiang Liu - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2010"
+    },
+    {
+      "title": "Cascade Markov random fields for stroke extraction of Chinese characters",
+      "authors": "Jia Zeng, Wei Feng, Lei Xie, Zhi",
+      "venue": "Qiang Liu - Information Sciences, 2010"
+    },
+    {
+      "title": "Maximum lexical cohesion for fine-grained news story segmentation",
+      "authors": "Zihan Liu, Lei Xie, Wei Feng",
+      "venue": "InterSpeech, 2010"
+    },
+    {
+      "title": "The rhombic dodecahedron map: An efficient scheme for encoding panoramic video",
+      "authors": "Chi",
+      "venue": "Wing Fu, Liang Wan, Tien-Tsin Wong, Chi-Sing Leung - IEEE Transactions on Multimedia(TMM), 2009"
+    },
+    {
+      "title": "Minimizing sparse higher order energy functions of discrete variables",
+      "authors": "Carsten Rother, Pushmeet Kohli, Wei Feng, Jiaya Jia",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2009"
+    },
+    {
+      "title": "Audio-visual human recognition using semi-supervised spectral learning and hidden Markov models",
+      "authors": "Wei Feng, Lei Xie, Jia Zeng, Zhi",
+      "venue": "Qiang Liu - Journal of Visual Languages and Computing (JVLC), 2009"
+    },
+    {
+      "title": "Evolving mazes from images",
+      "authors": "Liang Wan, Xiaopei Liu, Tien",
+      "venue": "Tsin Wong, Chi-Sing Leung - IEEE Transactions on Visualization and Computer Graphics (TVCG), 2009"
+    },
+    {
+      "title": "Refilming with depth-inferred videos",
+      "authors": "Guofeng Zhang, Zilong Dong, Jiaya Jia, Liang Wan, Tien",
+      "venue": "Tsin Wong, Hujun Bao - IEEE Transactions on Visualization and Computer Graphics (TVCG), 2009"
+    },
+    {
+      "title": "Unicube for dynamic environment mapping",
+      "authors": "Tze",
+      "venue": "Yiu Ho, Liang Wan, Chi-Sing Leung, Ping-Man Lam, Tien-Tsin Wong - IEEE Transactions on Visualization and Computer Graphics (TVCG), 2009"
+    },
+    {
+      "title": "Multicue graph mincut for image segmentation",
+      "authors": "Wei Feng, Lei Xie, Zhi",
+      "venue": "Qiang Liu - Asian Conference on Computer Vision (ACCV), 2009"
+    },
+    {
+      "title": "A subword normalized cut approach to automatic story segmentation of Chinese broadcast news",
+      "authors": "Jin Zhang, Lei Xie, Wei Feng, Yanning Zhang",
+      "venue": "Asia Information Retrieval Symposium (AIRS), 2009"
+    },
+    {
+      "title": "Region-level image authentication using Bayesian structural content abstraction",
+      "authors": "Wei Feng, Zhi",
+      "venue": "Qiang Liu - IEEE Transactions on Image Processing (TIP), 2008"
+    },
+    {
+      "title": "Animating animal motion from still",
+      "authors": "Xuemiao Xu, Liang Wan, Xiaopei Liu, Tien",
+      "venue": "Tsin Wong, Liansheng Wang, Chi-Sing Leung - ACM SIGGRAPH Asia, 2008"
+    },
+    {
+      "title": "Intrinsic colorization",
+      "authors": "Xiaopei Liu, Liang Wan, Yingge Qu, Tien",
+      "venue": "Tsin Wong, Stephen Lin, Chi-Sing Leung, Pheng-Ann Heng - ACM SIGGRAPH Asia, 2008"
+    },
+    {
+      "title": "Perceptual image preview",
+      "authors": "Liang Wan, Wei Feng, Zhouchen Lin, Tien",
+      "venue": "Tsin Wong, Zhi-Qiang Liu - ACM/Springer Multimedia Systems Journal (MMSJ), 2008"
+    },
+    {
+      "title": "Multi-scale texttiling for automatic story segmentation in Chinese broadcast news",
+      "authors": "Lei Xie, Jia Zeng, Wei Feng",
+      "venue": "Asia Information Retrieval Symposium (AIRS), 2008"
+    },
+    {
+      "title": "Isocube: Exploiting the cubemap hardware",
+      "authors": "Liang Wan, Tien",
+      "venue": "Tsin Wong, Chi-Sing Leung - IEEE Transactions on Visualization and Computer Graphics (TVCG), 2007"
+    },
+    {
+      "title": "Style-preserving English handwriting synthesis",
+      "authors": "Zhouchen Lin, Liang Wan",
+      "venue": "Pattern Recognition (PR), 2007"
+    },
+    {
+      "title": "Spectral multiplicity tolerant inexact graph matching",
+      "authors": "Wei Feng, Zhi",
+      "venue": "Qiang Liu - IEEE SMC, 2006"
+    },
+    {
+      "title": "Self-validated and spatially coherent clustering with net-structured MRF and graph cuts",
+      "authors": "Wei Feng, Zhi",
+      "venue": "Qiang Liu - International Conference on Pattern Recognition (ICPR), 2006"
+    },
+    {
+      "title": "Bayesian structural content abstraction for region-level image authentication",
+      "authors": "Wei Feng, Zhi",
+      "venue": "Qiang Liu - International Conference on Computer Vision (ICCV), 2005"
+    }
+  ]
+}
